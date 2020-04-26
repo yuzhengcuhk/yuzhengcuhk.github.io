@@ -1,0 +1,10 @@
+---
+title: "Deanonymizing Bitcoin Transactions An Investigative Study On Large-scale Graph Clustering"
+collection: publications
+permalink: /publication/2009-10-01-paper-title-number-1
+excerpt: 'Both the Bitcoin and Ethereum decentralized systems rely on the same distributed public Blockchain mining model of transmitting and recording history. Previous thought was that this system would be held in check through a balanced proof of work incentive system. However, previous studies have revealed an attack dubbed “selfish mining” whereby miners can exploit this incentive system to increase their expected rewards. Such models have further been applied to studying the transaction fee system that is expected to largely replace the block rewards system over the following years. Despite extensive study in the past, such models have failed to include the associated effects of these selfish mining attacks on exchange rates, which is of primary focus herein. These models are further extend to the context of the Ethereum network, which has not been studied with respect to selfish mining previously. In addition, this study sought to align and compare the current empirical status of the Bitcoin and Ethereum networks to the model results, to determine whether it is currently in the miners’ economic interest to engage in selfish mining or not. In the end, the necessary devaluation was studied as a function of the attacker’s hashrate, selfish mining (SM) hashrate proportion, SM engagement delay, and uncle block reward (Ethereum) were obtained, and it was found that the current state of Bitcoin and Ethereum are highly conducive to selfish mining, making it of interest to find countermeasures thereof in future studies.'
+date: 2018-05-05
+paperurl: 'http://yashpatel5400.github.io/files/selfish.pdf'
+---
+
+Princeton University Junior Paper: [Download paper here](http://yashpatel5400.github.io/files/selfish.pdf)
