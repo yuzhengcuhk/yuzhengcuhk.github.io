@@ -5,6 +5,6 @@ dots (after settling in their final locations) are interactive: clicking them wi
 person's involvement in their final location. Note: rendering is pretty compute-intensive, so it may be choppy before
 settling down. 
 <br />
-**Code available at**: https://salty-lowlands-43283.herokuapp.com/"
+**Code available at**: https://github.com/yashpatel5400/manhattan"
 collection: portfolio
 ---
