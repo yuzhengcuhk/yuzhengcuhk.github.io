@@ -81,9 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Yash Patel"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "yash.png"
+  bio              : "Computer vision/graphics engineer at Facebook. Math graduate from Princeton University '18 (certificates in CS and Statistics/ML). 
+                      Extremely excited by theoretical math (go analysis!) and building out the theory underlying modern deep learning."
+  location         : "Mountain View"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
