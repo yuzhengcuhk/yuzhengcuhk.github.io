@@ -20,9 +20,9 @@ underpinnings of modern deep learning systems, potentially exploring how that ti
 See my full resume [here](http://yashpatel5400.github.io/files/resume.pdf). Some projects I have worked on (see other tabs for full lists):
 
 Research:
-- [FairTear]()
-- [Deanonymization of Bitcoin Transactions]()
+- [Deanonymizing Bitcoin Transactions](http://yashpatel5400.github.io/files/deanonymization.pdf)
+- [FairTear](http://yashpatel5400.github.io/files/fairtear.pdf)
 
 Projects:
-- [Intertect]()
-- [Synalyze]()
+- [Intertect](http://intertect.herokuapp.com/)
+- [Neuropath](http://fast-caverns-95520.herokuapp.com/)
