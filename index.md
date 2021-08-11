@@ -64,7 +64,7 @@ Topic: Privacy-Preserving Deep Learning
 
 > Jan 19 - Apr 19 : IERG4130 Introduction to Cyber Security by [Prof. Kehuan Zhang](https://staff.ie.cuhk.edu.hk/~khzhang/)
 
-> Sep 18 - Dec 18 : IERG1080 Electronic Circuit Design Laboratory by [Marco Ho](https://staff.ie.cuhk.edu.hk/~mho/#about)
+> Sep 18 - Dec 18 : IERG1080 Electronic Circuit Design Laboratory by [Dr. Marco Ho](https://staff.ie.cuhk.edu.hk/~mho/#about)
 
 ## Course 
 >21 S: CS860 Algorithms for Private Data Analysis (Waterloo Univ online)
