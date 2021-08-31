@@ -54,6 +54,8 @@ Student: Xiang Li, MSc(CUHK)<br>
 Topic: Privacy-Preserving Deep Learning
 
 ## Teaching Assistant
+> Sep 21 - Dec 21 : IERG1080 Electronic Circuit Design Laboratory by Marco Ho
+
 > Jan 21 - Apr 21 : IERG4210 Web Programming and Security by Sherman Chow
 
 > Sep 20 - Dec 20 : IERG1080 Electronic Circuit Design Laboratory by Marco Ho
