@@ -20,7 +20,7 @@ layout: default
 
 ### Searchable Encryption
 
-### Chaotic Encryption 
+### Chaotic Encryption (Undergrad Stream) 
 
 *  Wei Song, <u>Yu Zheng</u>, Chong Fu, Pufang Shan.“A Novel Batch Image Encryption Algorithm Using Parallel Computing.” In 2020 Information Sciences (_JCR Q1,IF:5.9;CCF-B_).
 
