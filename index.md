@@ -106,8 +106,8 @@ Simplified Chinese (Native), English (Fluent),
 Shandong-dialect (Native), Northeastern Mandarin (Fluent), Cantonese (Limited), C, MATLAB, C++, Python, Java, LaTeX, HTML, CSS, JavaScript, ...
 
 ## Another Look
--	I like jogging, swimming, criminal psychology, reading, cooking (on the way :-）), ...
--   I learned guitar, Chinese calligraphy, pencil sketch, basketball (point guard) when I was a child, and got driver license when I became an adult in 2014.
+-   I like jogging, swimming, criminal psychology, reading, cooking (on the way :-）), ...
+-   I learned guitar, Chinese calligraphy, pencil sketch, basketball (point guard) when I was a child.
 
 #### Last updated: Aug 2020
 
