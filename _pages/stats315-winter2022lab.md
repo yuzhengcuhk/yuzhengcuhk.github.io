@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: lab
 permalink: /stats315-winter2022lab/
 title: "STATS 315 / DATA SCI 315 Lab"
 author_profile: true
@@ -12,13 +12,20 @@ Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks
 ## GSI Information
 
 **Name**: Yash Patel   
+
 **Office Hours**: Monday, Wednesday 4:00 - 5:30 EST
+
 **Office Hours Zoom**: https://umich.zoom.us/j/8156258865
+
 **Email**: [yppatel@umich.edu](mailto:yppatel@umich.edu)
 
+
 **Name**: Vinod Raman  
+
 **Office Hours**: Tuesday, Friday 1:00 - 2:30 EST
+
 **Office Hours Zoom**: TBD 
+
 **Email**: [vkraman@umich.edu](mailto:vkraman@umich.edu)
 
 ## Academic Integrity
