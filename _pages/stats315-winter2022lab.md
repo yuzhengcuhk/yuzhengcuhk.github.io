@@ -1,6 +1,6 @@
 ---
 layout: archive
-permalink: /categories/
+permalink: /stats315-winter2022lab/
 title: "Posts by Category"
 author_profile: true
 ---
