@@ -19,7 +19,7 @@ Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks
 
 **Name**: Vinod Raman  
 **Office Hours**: Tuesday, Friday 1:00 - 2:30 EST   
-**Office Hours Zoom**:     
+**Office Hours Zoom**: [https://umich.zoom.us/j/96998205724](https://umich.zoom.us/j/96998205724)    
 **Email**: [vkraman@umich.edu](mailto:vkraman@umich.edu)   
 
 ## Academic Integrity
