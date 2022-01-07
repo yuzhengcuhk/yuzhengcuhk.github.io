@@ -38,9 +38,10 @@ Students may experience stressors that can impact both their academic experience
 
 Lab No. | Date | Lab Topic
 ---         | ---  | ---
-01     | Jan 13 |  | 
-02     | Jan 20 |  | 
-03     | Jan 27 |  | 
+01     | Jan 13 | [Basic Python] | 
+02     | Jan 20 | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) | 
+03     | Jan 27 | [Scikit-Learn](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) 
+[Linear Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb) | 
 04     | Feb 3 |  | 
 05     | Feb 10 |  | 
 06     | Feb 17 |  | 
