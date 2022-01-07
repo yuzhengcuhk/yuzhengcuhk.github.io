@@ -36,13 +36,14 @@ Students may experience stressors that can impact both their academic experience
 
 ## Schedule
 
-Lab No. | Date | Lab Topic | Assignments
+Lab No. | Date | Lab Topic | Lab Links | Assignments
 ---         | ---  | ---
-01     | Jan 13 | [Basic Python](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/> [Loops/Matrices](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) <br/> [Matplolib](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) | Assignment 1 (Regression)
-02     | Jan 20 | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) | 
-03     | Jan 27 | [Scikit-Learn & Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) | 
-04     | Feb 3 | [Basic TF](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/> [Regression with Keras](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) <br/> [Saving/Loading](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) | **Assignment 1 Due**
-05     | Feb 10 | [Multilayer Perceptrons] | Assignment 2 (Basic Deep Learning)
+01     | Jan 13 | Python Review | [Basic Python](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/> [Loops/Matrices](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) <br/> [Matplolib](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) | Assignment 1 (Regression)
+02     | Jan 20 | Regression | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) <br /> [Scikit-Learn & Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) | 
+03     | Jan 27  | Tensorflow Internals | [Basic TF](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/>  [Tensors]https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/tensor.ipynb) <br/> [Variables](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/variable.ipynb) <br/> [Graphs](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/intro_to_graphs.ipynb) <br/> | 
+04     | Feb 3 | Keras & MLPs | [Basic Keras](https://colab.research.google.com/github/tensorflow/docs/blob/snapshot-keras/site/en/guide/keras/sequential_model.ipynb) <br/>
+[Saving/Loading](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) <br/> [Regression with Keras](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) | **Assignment 1 Due**
+05     | Feb 10 |  |  | Assignment 2 (Basic Deep Learning)
 06     | Feb 17 | [Backprop & Dropout] | 
 07     | Feb 24 | [Convolutions] | **Assignment 2 Due**
 08     | Mar 10 | [VGG & BatchNorm] | Assignment 3 (Computer Vision)
