@@ -1,47 +1,25 @@
 ---
 layout: archive
 permalink: /stats315-winter2022lab/
-title: "Posts by Category"
+title: "STATS 315 / DATA SCI 315 Lab"
 author_profile: true
 ---
 
-## Welcome to STATS 315 / DATA SCI 315
+This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library. The main course page is up at: https://ambujtewari.github.io/stats315-winter2022. See the complete information about the class on that site. Here, we will list the lab schedule, corresponding Google Colab notebooks, and any supplemental material that may be of interest to students.
 
-This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library.
-
-- **Textbook**: We will not follow any one textbook too closely. Here are a few references we might use:
-  - _Introduction to Deep Learning_ by Charniak. This undergraduate level textbook is perhaps the closest to this course in terms of prerequisites and the level at which deep learning is presented. It is available from [MIT Press](https://mitpress.mit.edu/books/introduction-deep-learning). Unfortunately this uses TensorFlow version 1 whereas we will use the more user friendly version 2.
-  - _Deep Learning with Python (2nd edition)_ by Chollet. A solid hands-on guide oriented towards programmers from the creator of the Keras deep learning library. Ebook and print versions are available from [Manning Publications](https://www.manning.com/books/deep-learning-with-python-second-edition).
-  - _Deep Learning_ by Goodfellow, Bengio and Courville. Written by three top deep learning researchers, this comprehensive book is required reading if you want to pursue your study of deep learning at a more advanced level. Print version is available from [MIT Press](https://mitpress.mit.edu/books/deep-learning) and an online version is [here](https://www.deeplearningbook.org/).
-  - _Neural Networks and Deep Learning_ by Nielsen. Uses the Theano library which is no longer popular. However, most of this [free online textbook](http://neuralnetworksanddeeplearning.com/) is focused on conceptual issues that will not become out-of-date anytime soon.
-  - _Dive into Deep Learning_ by Zhang, Lipton, Li and Smola. An advanced text from research scientists at Amazon. It weaves together math, figures, and code in an interactive online resource available [here](https://d2l.ai/). Code examples are provided in three frameworks: MXNet, PyTorch and TensorFlow. 
-- **Undergraduate Courses on Deep Learning**: Many universities now offer an introductory deep learning course, e.g., [Berkeley](https://c.d2l.ai/berkeley-stat-157/), [CMU](https://deeplearning.cs.cmu.edu/), [MIT](http://introtodeeplearning.com/), [Stanford](https://cs230.stanford.edu/)
-- **Canvas**: You should access the [Canvas class page](https://umich.instructure.com/courses/516592) for this course frequently. It will let you access important announcements and track course deliverables. (requires UM login)
-- **Slack**: The course slack workspace is at [um-wn22-stats315.slack.com](https://um-wn22-stats315.slack.com) (requires UM login)
-- **Days and Times**: Tuesdays and Thursdays, 10-11:30
-- **Location**: [B1580 BUS](https://maps.studentlife.umich.edu/building/jeff-t-blau-hall)
-
-## Instructor Information
-
-**Name**: Ambuj Tewari  
-**Office Hours**: TBD    
-**Email**: [tewaria@umich.edu](mailto:tewaria@umich.edu)
+Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks will be submitted through our custom leaderboard site (nearly complete).
 
 ## GSI Information
 
 **Name**: Yash Patel   
-**Lab Webpage**: TBD   
+**Office Hours**: Monday, Wednesday 4:00 - 5:30 EST
+**Office Hours Zoom**: https://umich.zoom.us/j/8156258865
 **Email**: [yppatel@umich.edu](mailto:yppatel@umich.edu)
 
 **Name**: Vinod Raman  
-**Lab Webpage**: TBD    
+**Office Hours**: Tuesday, Friday 1:00 - 2:30 EST
+**Office Hours Zoom**: TBD 
 **Email**: [vkraman@umich.edu](mailto:vkraman@umich.edu)
-
-
-## Grading
-
-- Weekly quizzes (60%): We will only use your top 10 scores
-- Homeworks (40%): Four homeworks with a substantial coding component
 
 ## Academic Integrity
 
@@ -57,33 +35,18 @@ Students may experience stressors that can impact both their academic experience
 
 ## Schedule
 
-IDL = _Introduction to Deep Learning_ by Charniak    
-DLPy = _Deep Learning with Python (2nd edition)_ by Chollet    
-DL = _Deep Learning_ by Goodfellow, Bengio and Courville    
-NNDL = _Neural Networks and Deep Learning_ by Nielsen    
-D2L = _Dive into Deep Learning_ by Zhang, Lipton, Li and Smola    
-
-Lecture No. | Date | Topic | Reading Assignment | Lab Topic
----         | ---  | ---   | ---                | ---
-&nbsp; |       | **Basics** |
-01     | Jan 06 | Course logistics <br/> Introduction <br/> [slides](https://docs.google.com/presentation/d/1i2g3yoxzL_sciLtKmJrb2EWFRnaFm1vzmzvMSg9oSeo/edit?usp=sharing) | DLPy, Ch. 1 <br/> DL, Ch. 1 <br/> D2L, Ch. 1
-02     | Jan 11 | Basic Elements of Linear Regression | D2L, Sec. 3.1.1
-03     | Jan 13 | The Normal Distribution and Squared Loss <br/> From Linear Regression to Deep Networks | D2L, Sec. 3.1.3 <br/> D2L, Sec. 3.1.4 | Linear regression implementation from scratch
-04     | Jan 18 | Classification Problem <br/> Network Architecture <br/> Parameterization Cost <br/> Softmax Operation | D2L, Sec. 3.4.1 <br/> D2L, Sec. 3.4.2 <br/> D2L, Sec. 3.4.3 <br/> D2L, Sec. 3.4.4
-05     | Jan 20 | Loss Function <br/> Information Theory Basics | D2L, Sec. 3.4.6 <br/> D2L, Sec. 3.4.7 | Softmax regression implementation from scratch
-&nbsp; |       | **TensorFlow/Keras** |
-06     | Jan 25 | TensorFlow, Keras, Google Colab | DLPy, Sec. 3.1-3.4
-07     | Jan 27 | First steps with Tensorflow | DLPy, Sec. 3.5 | Linear classifier in pure TensorFlow
-08     | Feb 01 | Keras Layers | DLPy, Sec. 3.6
-09     | Feb 03 | Machine learning fundamentals | DLPy, Ch. 5 | Regularization and generalization
-&nbsp; |        | **Multilayer Perceptrons** |
---     |        | Perceptrons and activation functions | --
---     |        | Multilayer perceptrons, Backprop | --
---     |        | Universal Approximation | --
---     |        | Depth | --
-&nbsp; |        | **Convolutional Neural Networks and Vision** |
---     |        | Convolutions and Pooling | --
---     |        | Multilayer convolutions | --
-&nbsp; |        | **Sequence Models and Language** |
---     |        | -- | --
-
+Lab No. | Date | Lab Topic
+---         | ---  | ---
+01     | Jan 13 |  | 
+02     | Jan 20 |  | 
+03     | Jan 27 |  | 
+04     | Feb 3 |  | 
+05     | Feb 10 |  | 
+06     | Feb 17 |  | 
+07     | Feb 24 |  | 
+08     | Mar 10 |  | 
+09     | Mar 17 |  | 
+10     | Mar 24 |  | 
+11     | Mar 31 |  | 
+12     | Apr 7 |  | 
+13     | Apr 14 |  |
