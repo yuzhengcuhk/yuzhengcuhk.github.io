@@ -46,9 +46,9 @@ Lab No. | Date | Lab Topic | Lab Links | Assignments
 06     | Feb 17 | Practical Keras | [Keras Hypertuning](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/keras_tuner.ipynb) <br /> [Keras Debugging](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/keras_recipes/ipynb/debugging_tips.ipynb) | 
 07     | Feb 24 | CNNs | [CNN Basics](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/cnn.ipynb) <br /> [Image Classification](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/classification.ipynb) | **Assignment 2 Due**
 08     | Mar 10 | Computer Vision | [Data Augmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/data_augmentation.ipynb) <br /> [Image Segmentation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/images/segmentation.ipynb) <br /> [CNN Internals](https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/visualizing_what_convnets_learn.ipynb#scrollTo=JI7fr1VX0GU7) | Assignment 3 (Computer Vision)
-09     | Mar 17 |  | [ResNet & DenseNet] | 
-10     | Mar 24 | | [Language Modeling & RNNs] | **Assignment 3 Due** 
-11     | Mar 31 | | [LSTMs, GRUs] | Assignment 4 (Language Processing)
-12     | Apr 7 |  |[Attention] | 
-13     | Apr 14 | | [Transformers] |
+09     | Mar 17 | Text Intro | [Word Embeddings](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/guide/word_embeddings.ipynb) <br /> [word2vec](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/text/word2vec.ipynb)  | 
+10     | Mar 24 | RNNs for NLP | [Text classification](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/text_classification_rnn.ipynb) <br /> [Text generation](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/text_generation.ipynb) | **Assignment 3 Due** 
+11     | Mar 31 | RNNs outside NLP | [Music generation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/audio/music_generation.ipynb) | Assignment 4 (Language Processing)
+12     | Apr 7 | Attention | [Attention](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/nmt_with_attention.ipynb) | 
+13     | Apr 14 | Transformers | [Transformers](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/transformer.ipynb) <br /> [BERT](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/classify_text_with_bert.ipynb) |
 14     | Apr 21 | No lab | **Assignment 4 Due**
