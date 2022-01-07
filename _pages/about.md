@@ -20,6 +20,7 @@ Projects:
 - [Intertect](http://intertect.herokuapp.com/)
 - [Neuropath](http://fast-caverns-95520.herokuapp.com/)
 - [MIS Ray Tracing](https://yashpatel5400.github.io/files/light_transport_mis.pdf)
+- [Hyperloop Pod](https://yashpatel5400.github.io/files/hyperloop.pdf)
 
 Research:
 - [Deanonymizing Bitcoin Transactions](http://yashpatel5400.github.io/files/deanonymization.pdf)
