@@ -41,15 +41,14 @@ Lab No. | Date | Lab Topic | Lab Links | Assignments
 01     | Jan 13 | Python Review | [Basic Python](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/> [Loops/Matrices](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) <br/> [Matplolib](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) | Assignment 1 (Regression)
 02     | Jan 20 | Regression | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) <br /> [Scikit-Learn & Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) | 
 03     | Jan 27  | Tensorflow Internals | [Basic TF](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/quickstart/beginner.ipynb) <br/>  [Tensors]https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/tensor.ipynb) <br/> [Variables](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/variable.ipynb) <br/> [Graphs](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/guide/intro_to_graphs.ipynb) <br/> | 
-04     | Feb 3 | Keras & MLPs | [Basic Keras](https://colab.research.google.com/github/tensorflow/docs/blob/snapshot-keras/site/en/guide/keras/sequential_model.ipynb) <br/>
-[Saving/Loading](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) <br/> [Regression with Keras](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) | **Assignment 1 Due**
-05     | Feb 10 |  |  | Assignment 2 (Basic Deep Learning)
-06     | Feb 17 | [Backprop & Dropout] | 
-07     | Feb 24 | [Convolutions] | **Assignment 2 Due**
-08     | Mar 10 | [VGG & BatchNorm] | Assignment 3 (Computer Vision)
-09     | Mar 17 | [ResNet & DenseNet] | 
-10     | Mar 24 | [Language Modeling & RNNs] | **Assignment 3 Due** 
-11     | Mar 31 | [LSTMs, GRUs] | Assignment 4 (Language Processing)
-12     | Apr 7 | [Attention] | 
-13     | Apr 14 | [Transformers] |
+04     | Feb 3 | Keras & MLPs | [Basic Keras](https://colab.research.google.com/github/tensorflow/docs/blob/snapshot-keras/site/en/guide/keras/sequential_model.ipynb) <br/> [Saving/Loading](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/save_and_load.ipynb) <br/> [Regression with Keras](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/regression.ipynb) | **Assignment 1 Due**
+05     | Feb 10 | Training | [Training from Scratch](https://colab.research.google.com/github/tensorflow/docs/blob/snapshot-keras/site/en/guide/keras/writing_a_training_loop_from_scratch.ipynb) <br /> [Overfitting/Underfitting](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/keras/overfit_and_underfit.ipynb) | Assignment 2 (Basic Deep Learning)
+06     | Feb 17 | | [Backprop & Dropout] | 
+07     | Feb 24 | | [Convolutions] | **Assignment 2 Due**
+08     | Mar 10 | | [VGG & BatchNorm] | Assignment 3 (Computer Vision)
+09     | Mar 17 | | [ResNet & DenseNet] | 
+10     | Mar 24 | | [Language Modeling & RNNs] | **Assignment 3 Due** 
+11     | Mar 31 | | [LSTMs, GRUs] | Assignment 4 (Language Processing)
+12     | Apr 7 |  |[Attention] | 
+13     | Apr 14 | | [Transformers] |
 14     | Apr 21 | No lab | **Assignment 4 Due**
