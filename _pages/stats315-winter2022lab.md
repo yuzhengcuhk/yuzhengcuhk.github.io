@@ -36,18 +36,19 @@ Students may experience stressors that can impact both their academic experience
 
 ## Schedule
 
-Lab No. | Date | Lab Topic
+Lab No. | Date | Lab Topic | Assignments
 ---         | ---  | ---
-01     | Jan 13 | [Basic Python] | 
+01     | Jan 13 | [Basic Python] | Assignment 1 (Regression)
 02     | Jan 20 | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) | 
 03     | Jan 27 | [Scikit-Learn & Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) | 
-04     | Feb 3 | [Tensorflow & Keras] | 
-05     | Feb 10 |  | 
-06     | Feb 17 |  | 
-07     | Feb 24 |  | 
-08     | Mar 10 |  | 
-09     | Mar 17 |  | 
-10     | Mar 24 |  | 
-11     | Mar 31 |  | 
-12     | Apr 7 |  | 
-13     | Apr 14 |  |
+04     | Feb 3 | [Basic TF & Keras] | **Assignment 1 Due**
+05     | Feb 10 | [Multilayer Perceptrons] | Assignment 2 (Basic Deep Learning)
+06     | Feb 17 | [Backprop & Dropout] | 
+07     | Feb 24 | [Convolutions] | **Assignment 2 Due**
+08     | Mar 10 | [VGG & BatchNorm] | Assignment 3 (Computer Vision)
+09     | Mar 17 | [ResNet & DenseNet] | 
+10     | Mar 24 | [Language Modeling & RNNs] | **Assignment 3 Due** 
+11     | Mar 31 | [LSTMs, GRUs] | Assignment 4 (Language Processing)
+12     | Apr 7 | [Attention] | 
+13     | Apr 14 | [Transformers] |
+14     | Apr 21 | No lab | **Assignment 4 Due**
