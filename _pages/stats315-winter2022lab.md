@@ -40,9 +40,8 @@ Lab No. | Date | Lab Topic
 ---         | ---  | ---
 01     | Jan 13 | [Basic Python] | 
 02     | Jan 20 | [Numpy](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/02.00-Introduction-to-NumPy.ipynb) | 
-03     | Jan 27 | [Scikit-Learn](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) 
-[Linear Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.06-Linear-Regression.ipynb) | 
-04     | Feb 3 |  | 
+03     | Jan 27 | [Scikit-Learn & Regression](https://colab.research.google.com/github/jakevdp/PythonDataScienceHandbook/blob/master/notebooks/05.02-Introducing-Scikit-Learn.ipynb) | 
+04     | Feb 3 | [Tensorflow & Keras] | 
 05     | Feb 10 |  | 
 06     | Feb 17 |  | 
 07     | Feb 24 |  | 
