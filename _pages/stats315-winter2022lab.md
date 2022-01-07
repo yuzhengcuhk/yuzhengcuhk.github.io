@@ -51,4 +51,4 @@ Lab No. | Date | Lab Topic | Lab Links | Assignments
 11     | Mar 31 | RNNs outside NLP | [Music generation](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/tutorials/audio/music_generation.ipynb) | Assignment 4 (Language Processing)
 12     | Apr 7 | Attention | [Attention](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/nmt_with_attention.ipynb) | 
 13     | Apr 14 | Transformers | [Transformers](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/transformer.ipynb) <br /> [BERT](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/classify_text_with_bert.ipynb) |
-14     | Apr 21 | No lab | **Assignment 4 Due**
+14     | Apr 21 | No lab | | **Assignment 4 Due**
