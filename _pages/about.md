@@ -16,10 +16,11 @@ I graduated as a Math major from Princeton in 2018 (certificates in CS and Stati
 
 See my full (probably outdated) resume [here](http://yashpatel5400.github.io/files/resume.pdf). Some projects I have worked on (see other tabs for full lists):
 
-Research:
-- [Deanonymizing Bitcoin Transactions](http://yashpatel5400.github.io/files/deanonymization.pdf)
-- [FairTear](http://yashpatel5400.github.io/files/fairtear.pdf)
-
 Projects:
 - [Intertect](http://intertect.herokuapp.com/)
 - [Neuropath](http://fast-caverns-95520.herokuapp.com/)
+- [MIS Ray Tracing](https://yashpatel5400.github.io/files/light_transport_mis.pdf)
+
+Research:
+- [Deanonymizing Bitcoin Transactions](http://yashpatel5400.github.io/files/deanonymization.pdf)
+- [FairTear](http://yashpatel5400.github.io/files/fairtear.pdf)
