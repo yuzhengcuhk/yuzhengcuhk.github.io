@@ -7,7 +7,7 @@ author_profile: true
 
 This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library. The main course page is up at: [https://ambujtewari.github.io/stats315-winter2022](https://ambujtewari.github.io/stats315-winter2022). See the complete information about the class on that site. Here, we will list the lab schedule, corresponding Google Colab notebooks, and any supplemental material that may be of interest to students.
 
-Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks will be submitted through our custom leaderboard site (nearly complete).
+Labs will be conducted weekly and homeworks due roughly every three weeks. Homeworks will be submitted through our custom leaderboard site (nearly complete). 
 
 ## GSI Information
 
