@@ -5,7 +5,7 @@ title: "STATS 315 / DATA SCI 315 Lab"
 author_profile: true
 ---
 
-This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library. The main course page is up at: https://ambujtewari.github.io/stats315-winter2022. See the complete information about the class on that site. Here, we will list the lab schedule, corresponding Google Colab notebooks, and any supplemental material that may be of interest to students.
+This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library. The main course page is up at: [https://ambujtewari.github.io/stats315-winter2022](https://ambujtewari.github.io/stats315-winter2022). See the complete information about the class on that site. Here, we will list the lab schedule, corresponding Google Colab notebooks, and any supplemental material that may be of interest to students.
 
 Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks will be submitted through our custom leaderboard site (nearly complete).
 
@@ -13,13 +13,13 @@ Labs will be conducted weekly and homeworks roughly every three weeks. Homeworks
 
 **Name**: Yash Patel   
 **Office Hours**: Monday, Wednesday 4:00 - 5:30 EST   
-**Office Hours Zoom**: https://umich.zoom.us/j/8156258865   
+**Office Hours Zoom**: [https://umich.zoom.us/j/8156258865](https://umich.zoom.us/j/8156258865)   
 **Email**: [yppatel@umich.edu](mailto:yppatel@umich.edu)   
 
 
 **Name**: Vinod Raman  
 **Office Hours**: Tuesday, Friday 1:00 - 2:30 EST   
-**Office Hours Zoom**: TBD    
+**Office Hours Zoom**:     
 **Email**: [vkraman@umich.edu](mailto:vkraman@umich.edu)   
 
 ## Academic Integrity
