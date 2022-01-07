@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 permalink: /stats315-winter2022lab/
 title: "STATS 315 / DATA SCI 315 Lab"
 author_profile: true
