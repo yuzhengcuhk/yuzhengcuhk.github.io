@@ -49,6 +49,6 @@ Lab No. | Date | Lab Topic | Lab Links | Lab Recordings | Assignments
 09     | Mar 17 | Computer Vision Fundamentals | [CV Fundamentals](https://colab.research.google.com/drive/1Al2xqnVEiOHeylVvux3P-_lRHHtUK-M7?usp=sharing)  |  | 
 10     | Mar 24 | Transfer Learning | [Transfer Learning](https://colab.research.google.com/drive/1EWJKOD6_mr31c51qCEn4y4Yp7oagE6ou?usp=sharing) | | **Assignment 3 Due** 
 11     | Mar 31 | RNNs | [RNNs](https://colab.research.google.com/drive/1yYX4lhG_1BNrbtfdD6eXTnXXR3h3g0EZ?usp=sharing) | | Assignment 4 (Language Processing)
-12     | Apr 7 | Attention | [Attention](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/nmt_with_attention.ipynb)  | | 
+12     | Apr 7 | Attention | [NLP](https://colab.research.google.com/drive/1HucQVq1wbrDdlBgP-cbhA6enjU160k6D?usp=sharing)  | | 
 13     | Apr 14 | Transformers | [Transformers](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/transformer.ipynb) <br /> [BERT](https://colab.research.google.com/github/tensorflow/text/blob/master/docs/tutorials/classify_text_with_bert.ipynb) |  |
 14     | Apr 21 | No lab |  | | **Assignment 4 Due**
