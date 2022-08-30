@@ -1,0 +1,52 @@
+---
+layout: lab
+permalink: /stats315-fall2022lab/
+title: "STATS 315 / DATA SCI 315 Lab"
+author_profile: true
+---
+
+This is an introductory deep learning course using the Python programming language and the TensorFlow deep learning library. The main course page is up at: [https://yixinwang.github.io/courses/deeplearning/fall22/deeplearning22f.html](https://yixinwang.github.io/courses/deeplearning/fall22/deeplearning22f.html). See the complete information about the class on that site. Here, we will list the lab schedule, corresponding Google Colab notebooks, and any supplemental material that may be of interest to students.
+
+## GSI Information
+
+**Name**: Yash Patel   
+**Office Hours**: Tuesday 2:00 - 3:00 EST, Friday 2:00 - 4:00 EST   
+**Office Hours Zoom**: [https://umich.zoom.us/j/8156258865](https://umich.zoom.us/j/8156258865)   
+**Email**: [yppatel@umich.edu](mailto:yppatel@umich.edu)   
+
+
+**Name**: Easton Hutch  
+**Office Hours**: Monday 2:00 - 4:00 EST, Thursday 4:00 - 5:00 EST   
+**Office Hours Zoom**: [https://umich.zoom.us/j/92369910945](https://umich.zoom.us/j/92369910945)    
+**Email**: [ekhuch@umich.edu](mailto:ekhuch@umich.edu)   
+
+## Academic Integrity
+
+The University of Michigan community functions best when its members treat one another with honesty, fairness, respect, and trust. The college promotes the assumption of personal responsibility and integrity, and prohibits all forms of academic dishonesty and misconduct. All cases of academic misconduct will be referred to the LSA Office of the Assistant Dean for Undergraduate Education. Being found responsible for academic misconduct will usually result in a grade sanction, in addition to any sanction from the college. For more information, including examples of behaviors that are considered academic misconduct and potential sanctions, please see [https://lsa.umich.edu/lsa/academics/academic-integrity.html](https://lsa.umich.edu/lsa/academics/academic-integrity.html)
+
+## Accommodation for Students with Disabilities
+
+If you think you need accommodation for a disability, please let me know at your earliest convenience. Some aspects of this course, the assignments, the in-class activities, and the way the course is usually taught may be modified to facilitate your participation and progress. As soon as you make me aware of your needs, we can work with the Office of Services for Students with Disabilities (SSD) to help us determine appropriate academic accommodations. SSD (734-763-3000; [http://ssd.umich.edu/](http://ssd.umich.edu/)) typically recommends accommodations through a Verified Individualized Services and Accommodations (VISA) form. Any information you provide is private and confidential and will be treated as such.
+
+## Mental Health and Well-Being
+
+Students may experience stressors that can impact both their academic experience and their personal well-being. These may include academic pressures and challenges associated with relationships, mental health, alcohol or other drugs, identities, finances, etc. If you are experiencing concerns, seeking help is a courageous thing to do for yourself and those who care about you. If the source of your stressors is academic, please contact me so that we can find solutions together. For personal concerns, U-M offers a variety of resources, many which are listed on the [Resources for Student Well-being](https://wellbeing.studentlife.umich.edu/resources-list) webpage. You can also search for additional well-being resources [here](https://wellbeing.studentlife.umich.edu/well-being-resources). 
+
+## Schedule
+
+Lab No. | Date   | Lab Links |
+---     | ---    | ---
+01      | Sep 1  | [Basic Python](https://colab.research.google.com/drive/1PFDOQa2OZlc8SmNAIt17OFoi1HpRTyB4?usp=sharing) |
+02      | Sep 8  | [Basic TF](https://drive.google.com/file/d/19GorakDobDyrxg45VUu-wRWVFF4Qbk2B/view?usp=sharing)        | 
+03      | Sep 15 | [Regression](https://drive.google.com/file/d/1xYVPg_V6-P5qcT5KG7JpFkgy6b-GSxDx/view?usp=sharing)      |
+04      | Sep 22 | [Classification](https://drive.google.com/file/d/1gE8wXpBoHBIeZ6nyiNgsOJhvGNW-Bcql/view?usp=sharing)  |
+05      | Sep 29 | |
+06      | Oct 6  | |
+07      | Oct 13 | |
+08      | Oct 20 | |
+09      | Oct 27 | |
+10      | Nov 3  | |
+11      | Nov 10 | |
+12      | Nov 17 | |
+13      | Nov 28 | |
+14      | Dec 5  | |
