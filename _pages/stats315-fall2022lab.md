@@ -34,7 +34,7 @@ Students may experience stressors that can impact both their academic experience
 
 ## Schedule
 
-Lab No. | Date   | Lab Links | | Lab Solutions |
+Lab No. | Date   | Lab Links | Lab Solutions |
 ---     | ---    | ---
 01      | Sep 1  | [Basic Python](https://colab.research.google.com/drive/1PFDOQa2OZlc8SmNAIt17OFoi1HpRTyB4?usp=sharing) | [Basic Python](https://colab.research.google.com/drive/1IdwlHd-bsZ1J43DjQmAAnR_jZWa6B3ku?usp=sharing) |
 02      | Sep 8  | [Basic TF](https://drive.google.com/file/d/19GorakDobDyrxg45VUu-wRWVFF4Qbk2B/view?usp=sharing)        |  |
