@@ -37,7 +37,7 @@ Students may experience stressors that can impact both their academic experience
 Lab No. | Date   | Lab Links | Lab Solutions |
 ---     | ---    | ---
 01      | Sep 1  | [Basic Python](https://colab.research.google.com/drive/1PFDOQa2OZlc8SmNAIt17OFoi1HpRTyB4?usp=sharing) | [Basic Python](https://colab.research.google.com/drive/1IdwlHd-bsZ1J43DjQmAAnR_jZWa6B3ku?usp=sharing) |
-02      | Sep 8  | [Basic TF](https://drive.google.com/file/d/19GorakDobDyrxg45VUu-wRWVFF4Qbk2B/view?usp=sharing)        |  |
+02      | Sep 8  | [Basic TF](https://drive.google.com/file/d/19GorakDobDyrxg45VUu-wRWVFF4Qbk2B/view?usp=sharing)        | [Basic TF](https://drive.google.com/file/d/1EaUm9K-fxmmjO1GB5cHi1gq5xl1SRlyR/view?usp=sharing) |
 03      | Sep 15 | [Regression](https://drive.google.com/file/d/1xYVPg_V6-P5qcT5KG7JpFkgy6b-GSxDx/view?usp=sharing)      | |
 04      | Sep 22 | [Classification](https://drive.google.com/file/d/1gE8wXpBoHBIeZ6nyiNgsOJhvGNW-Bcql/view?usp=sharing)  | |
 05      | Sep 29 | | |
