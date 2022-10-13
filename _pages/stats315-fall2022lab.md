@@ -41,7 +41,7 @@ Lab No. | Date   | Lab Links | Lab Solutions |
 03      | Sep 15 | [Regression](https://drive.google.com/file/d/1xYVPg_V6-P5qcT5KG7JpFkgy6b-GSxDx/view?usp=sharing)      | [Regression](https://drive.google.com/file/d/15K8c58DfU0TKaIVhgFdvBpwlywaEvRVn/view?usp=sharing) |
 04      | Sep 22 | [Classification](https://drive.google.com/file/d/1gE8wXpBoHBIeZ6nyiNgsOJhvGNW-Bcql/view?usp=sharing)  | [Classification](https://drive.google.com/file/d/1sPwdL6XFU9VR4MGnjzvy0lWt1SYtIlkY/view?usp=sharing) |
 05      | Sep 29 | [Sample Project](https://drive.google.com/file/d/1m3hKaSQ4FvAOoPdc4SFFUsv3Dm3FUfB7/view?usp=sharing) | [Sample Project](https://drive.google.com/file/d/11FVu-Y-TfoFtWBWANSDaeO4LGcUfuk8A/view?usp=sharing) |
-06      | Oct 6  | [Project Software](https://drive.google.com/file/d/1b2XFKpRIgpGfYyFH0Bi8ANnKuu_fUtxP/view?usp=sharing) | |
+06      | Oct 6  | [Project Software](https://drive.google.com/file/d/1b2XFKpRIgpGfYyFH0Bi8ANnKuu_fUtxP/view?usp=sharing) | [Project Software](https://drive.google.com/file/d/1sABcNZJPUVfUkS_mPAtb1G3GNVAIX-tx/view?usp=sharing) |
 07      | Oct 13 | [Basic Computer Vision](https://colab.research.google.com/drive/1LfBfxCPgck0xzViHKSgKDYwdLRGFRx9P?usp=sharing) | |
 08      | Oct 20 | [Advanced Computer Vision](https://colab.research.google.com/drive/18xtRndg23YTlbijJKvjw5o-3aDI-n7SA?usp=sharing) | |
 09      | Oct 27 | Project Workshop | N/a |
