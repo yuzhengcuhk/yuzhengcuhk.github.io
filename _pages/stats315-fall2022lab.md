@@ -42,8 +42,8 @@ Lab No. | Date   | Lab Links | Lab Solutions |
 04      | Sep 22 | [Classification](https://drive.google.com/file/d/1gE8wXpBoHBIeZ6nyiNgsOJhvGNW-Bcql/view?usp=sharing)  | [Classification](https://drive.google.com/file/d/1sPwdL6XFU9VR4MGnjzvy0lWt1SYtIlkY/view?usp=sharing) |
 05      | Sep 29 | [Sample Project](https://drive.google.com/file/d/1m3hKaSQ4FvAOoPdc4SFFUsv3Dm3FUfB7/view?usp=sharing) | [Sample Project](https://drive.google.com/file/d/11FVu-Y-TfoFtWBWANSDaeO4LGcUfuk8A/view?usp=sharing) |
 06      | Oct 6  | [Project Software](https://drive.google.com/file/d/1b2XFKpRIgpGfYyFH0Bi8ANnKuu_fUtxP/view?usp=sharing) | [Project Software](https://drive.google.com/file/d/1sABcNZJPUVfUkS_mPAtb1G3GNVAIX-tx/view?usp=sharing) |
-07      | Oct 13 | [Basic Computer Vision](https://colab.research.google.com/drive/1LfBfxCPgck0xzViHKSgKDYwdLRGFRx9P?usp=sharing) | |
-08      | Oct 20 | [Advanced Computer Vision](https://colab.research.google.com/drive/18xtRndg23YTlbijJKvjw5o-3aDI-n7SA?usp=sharing) | |
+07      | Oct 13 | [Basic Computer Vision](https://colab.research.google.com/drive/1LfBfxCPgck0xzViHKSgKDYwdLRGFRx9P?usp=sharing) | [Basic Computer Vision](https://colab.research.google.com/drive/1QcBWqJxhjG2btuskno-2W12EKmNJAdCp?usp=sharing) |
+08      | Oct 20 | [Advanced Computer Vision](https://colab.research.google.com/drive/18xtRndg23YTlbijJKvjw5o-3aDI-n7SA?usp=sharing) | [Advanced Computer Vision](https://colab.research.google.com/drive/1WYc6JlNvpjOXDj-JN6zDV-RpTfbsJktp?usp=sharing) |
 09      | Oct 27 | Project Workshop | N/a |
 10      | Nov 3  | [RNNs](https://colab.research.google.com/drive/1hdDofDXYFTrruxfHz7PPUUMyK4qQxhmZ?usp=sharing) | |
 11      | Nov 10 | [NLP](https://colab.research.google.com/drive/1FxCZzaYwDCqS_2RJA-t-TB7-B6wcXed5?usp=sharing) | |
