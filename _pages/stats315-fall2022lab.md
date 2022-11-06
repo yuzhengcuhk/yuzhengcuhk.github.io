@@ -45,9 +45,9 @@ Lab No. | Date   | Lab Links | Lab Solutions |
 07      | Oct 13 | [Basic Computer Vision](https://colab.research.google.com/drive/1LfBfxCPgck0xzViHKSgKDYwdLRGFRx9P?usp=sharing) | [Basic Computer Vision](https://colab.research.google.com/drive/1QcBWqJxhjG2btuskno-2W12EKmNJAdCp?usp=sharing) |
 08      | Oct 20 | [Advanced Computer Vision](https://colab.research.google.com/drive/18xtRndg23YTlbijJKvjw5o-3aDI-n7SA?usp=sharing) | [Advanced Computer Vision](https://colab.research.google.com/drive/1WYc6JlNvpjOXDj-JN6zDV-RpTfbsJktp?usp=sharing) |
 09      | Oct 27 | Project Workshop | N/a |
-10      | Nov 3  | [RNNs](https://colab.research.google.com/drive/1hdDofDXYFTrruxfHz7PPUUMyK4qQxhmZ?usp=sharing) | |
-11      | Nov 10 | [NLP](https://colab.research.google.com/drive/1FxCZzaYwDCqS_2RJA-t-TB7-B6wcXed5?usp=sharing) | [NLP](https://colab.research.google.com/drive/1faco3FoTioZxlUw3W4h5EZ5gmy9sQRLC?usp=sharing) |
-12      | Nov 17 | Generative Models | |
+10      | Nov 3  | [RNNs](https://colab.research.google.com/drive/1hdDofDXYFTrruxfHz7PPUUMyK4qQxhmZ?usp=sharing) | [RNNs](https://colab.research.google.com/drive/1faco3FoTioZxlUw3W4h5EZ5gmy9sQRLC?usp=sharing) |
+11      | Nov 10 | [NLP](https://colab.research.google.com/drive/1FxCZzaYwDCqS_2RJA-t-TB7-B6wcXed5?usp=sharing) |  |
+12      | Nov 17 | [Advanced TF](https://colab.research.google.com/drive/1kSeGtzyqPu5szbZSHyj-DI5w9HYl7o9D?usp=sharing) | |
 -      | Nov 24 | Thanksgiving | |
 13      | Nov 31  | Advanced Generative Models | |
 14      | Dec 7  | Project Workshop | |
