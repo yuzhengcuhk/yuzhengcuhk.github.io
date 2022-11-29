@@ -49,5 +49,5 @@ Lab No. | Date   | Lab Links | Lab Solutions |
 11      | Nov 10 | [NLP](https://colab.research.google.com/drive/1FxCZzaYwDCqS_2RJA-t-TB7-B6wcXed5?usp=sharing) | [NLP](https://colab.research.google.com/drive/19ZhE2JGLMb8E8FVQpEHIjVSHzUwvlqSI?usp=sharing) |
 12      | Nov 17 | [Advanced TF](https://colab.research.google.com/drive/1kSeGtzyqPu5szbZSHyj-DI5w9HYl7o9D?usp=sharing) | [Advanced TF](https://colab.research.google.com/drive/1LuUcqz7I0knf8GkiuceD43oH69hA5iDV?usp=sharing) |
 -      | Nov 24 | Thanksgiving | |
-13      | Nov 31  | Advanced Generative Models | |
+13      | Nov 31  | [Generative Models](https://colab.research.google.com/drive/143eS0YDv-jtwst0dGtK3WNZCt_SJzv20?usp=sharing) | |
 14      | Dec 7  | Project Workshop | |
