@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a 1st year PhD student at the University of Michigan studying statistics. I am interested in machine learning and its applications to computational biology.
+I'm currently a 3rd year PhD student at the University of Michigan studying [Statistics](https://lsa.umich.edu/stats) advised by [Ambuj Tewari](https://ambujtewari.github.io/). I am interested in machine learning and its applications to computational biology, specifically 3D heterogeneous reconstruction of proteins from Cryo-EM images. I've also dabbled in [conformal prediction](https://arxiv.org/pdf/2305.14275.pdf), [variational inference](https://arxiv.org/pdf/2211.10479.pdf), and [generative models](https://arxiv.org/pdf/2211.10771.pdf).
 
 I previously worked as a computer vision/graphics engineer at Facebook, where I worked on realtime dense 3D reconstruction (point clouds/KinectFusion) and dynamic real-time disocclusion on meshes. I previously worked on the software for the [Manifold camera](https://bkcabralwebsite.appspot.com/An-Integrated-6DoF-Video-Camera-and-System-Design.pdf), specifically adding support for rendering on cloud farms and improving the efficiency of the depth estimation algorithm. I also implemented, trained, and optimized (with layer fusion, SNPE, and QAT quantization) an end-to-end deep learning-based feature for Portal to run at realtime on the Snapdragon SoC.
 
