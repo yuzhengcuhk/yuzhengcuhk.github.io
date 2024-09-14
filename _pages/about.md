@@ -97,6 +97,8 @@ Outstanding First-Year Ph.D. Student Award (2022)
 
 Outstanding Graduate Student Instructor Team Award (2022) 
 
+Graduate Student Service Award Award (2024) 
+
 ## Mentoring
 During my PhD, I have also had the opportunity to mentor the following fantastic undergraduate and master's students.
 
