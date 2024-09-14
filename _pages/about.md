@@ -43,11 +43,7 @@ Robust Functional Predict-Then-Optimize, **Patel Y**, Tewari A. -->
 [Scalable Bayesian Inference for Finding Strong Gravitational Lenses](https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_155.pdf), **Patel Y**, Regier J. *NeurIPS Machine Learning and the Physical Sciences Workshop, 2022*
 
 ## Patents
-[Holographic Calling for Artificial Reality](https://patents.google.com/patent/US20220413433A1/en)
-
-AP Pozo, J Virskus, G Venkatesh, K Li, SC Chen, A Kumar, R Ranjan, BK Cabral, SA Johnson, W Ye, MA Snower, **Y Patel**
-
-*US Patent App. 17/360,693*
+[Holographic Calling for Artificial Reality](https://patents.google.com/patent/US20220413433A1/en), AP Pozo, J Virskus, G Venkatesh, K Li, SC Chen, A Kumar, R Ranjan, BK Cabral, SA Johnson, W Ye, MA Snower, **Y Patel**. *US Patent App. 17/360,693*
 
 ## Awards
 2x NSF GRFP Honorable Mention (2020, 2022)
@@ -61,25 +57,24 @@ Graduate Student Service Award Award (2024)
 ## Mentoring
 During my PhD, I have also had the opportunity to mentor the following fantastic undergraduate and master's students.
 
-[Guyang (Kevin) Cao](https://www.linkedin.com/in/guyang-kevin-cao-410b28205/) (**Honors Thesis** 2023-2024; **Undergraduate Research Program in Statistics** 2023): [Non-parametric Conformal Distributionally Robust Optimization](https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf)
+[Guyang (Kevin) Cao](https://www.linkedin.com/in/guyang-kevin-cao-410b28205/) (*Honors Thesis* 2023-2024; *Undergraduate Research Program in Statistics* 2023): [Non-parametric Conformal Distributionally Robust Optimization](https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf). **Next step**: Ph.D. in Computer Science at University of Wisconsin-Madison
 
-**Next step**: Ph.D. in Computer Science at University of Wisconsin-Madison
+[Zhiwei Xue](https://www.linkedin.com/in/zhiwei-xue-280b84256/) (*Undergraduate Research Program in Statistics* 2023): [Diffusion Models for Probabilistic Deconvolution of Galaxy Images](https://arxiv.org/pdf/2307.11122). **Next step**: Ph.D. in Computer Science at National University of Singapore
 
-[Zhiwei Xue](https://www.linkedin.com/in/zhiwei-xue-280b84256/) (**Undergraduate Research Program in Statistics** 2023): [Diffusion Models for Probabilistic Deconvolution of Galaxy Images](https://arxiv.org/pdf/2307.11122)
+[Yuhang Li](https://www.linkedin.com/in/yuhang-li-/) (*Undergraduate Research Program in Statistics* 2023): [Diffusion Models for Probabilistic Deconvolution of Galaxy Images](https://arxiv.org/pdf/2307.11122). **Next step**: Master's in Computer Science at University of Illinois, Urbana-Champaigna
 
-**Next step**: Ph.D. in Computer Science at National University of Singapore
+[Zhong Zheng](https://www.linkedin.com/in/zhongzheng1999/) (*Undergraduate Research Program in Statistics* 2023): Atomic Maps Reconstruction for Cryo-EM Data with Continuous Heterogeneity. **Next step**: Master's in Computational Data Science at Carnegie Mellon University
 
-[Yuhang Li](https://www.linkedin.com/in/yuhang-li-/) (**Undergraduate Research Program in Statistics** 2023): [Diffusion Models for Probabilistic Deconvolution of Galaxy Images](https://arxiv.org/pdf/2307.11122)
+[Chengsong Zhang](https://continue-revolution.github.io/) (2022): Molecular Conformer Generation. **Next step**: Master's in Computer Science at University of Illinois, Urbana-Champaigna
 
-**Next step**: Master's in Computer Science at University of Illinois, Urbana-Champaigna
+## Teaching
+- STATS 485 (Capstone Seminar), Fall 2023, Fall 2024.
 
-[Zhong Zheng](https://www.linkedin.com/in/zhongzheng1999/) (**Undergraduate Research Program in Statistics** 2023): Atomic Maps Reconstruction for Cryo-EM Data with Continuous Heterogeneity
+- STATS 504 (Practice and Communication in Applied Statistics), Winter 2023.
 
-**Next step**: Master's in Computational Data Science at Carnegie Mellon University
+- [STATS 315](https://www.ambujtewari.com/stats315-winter2022/) (Introduction to Deep Learning), Winter 2022, Fall 2022: Co-designed course for its 1st offering (F22)
 
-[Chengsong Zhang](https://continue-revolution.github.io/) (2022): Molecular Conformer Generation
-
-**Next step**: Master's in Computer Science at University of Illinois, Urbana-Champaigna
+- STATS 250 (Introduction to Statistics), Fall 2021
 
 ## Miscellaneous
 Outside of research, I also really enjoy lifting and [reading](https://www.goodreads.com/user/show/83094203-yash-patel). In a previous life, I dabbled in other subfields I was interested in, like computer architecture and computer graphics; here are some artifacts of those interests:
