@@ -82,13 +82,13 @@ analytics:
 author:
   name             : "Yash Patel"
   avatar           : "yash.png"
-  bio              : "PhD student in Statistics at University of Michigan, interested in computational biology and machine learning. 
+  bio              : "PhD student in Statistics at University of Michigan, interested in robust decision-making and neural operators. 
                       Previously computer vision/graphics engineer at Facebook. Math graduate from Princeton University '18 (certificates in CS and Statistics/ML)."
   location         : "Ann Arbor"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            :
+  googlescholar    : https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en
+  email            : yppatel [at] umich.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -103,7 +103,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : https://www.linkedin.com/in/yash-patel-297b87a1/
   orcid            : #"http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
