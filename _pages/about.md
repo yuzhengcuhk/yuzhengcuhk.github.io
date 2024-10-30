@@ -50,7 +50,7 @@ Program Committee
 ------
 CCS AE (24’,23’), NDSS AE (24’, also Discussion Lead in 24’), TheWebConf AE (24’), USENIX Security AE (24’), AAAI (25’), AJCAI (23’), EAI ICECI (24’), ICNC (25’).
 
-(24’): Session Chair of AsiaCCS.
+Session Chair/Host: RSA’25 (San Francisco, USA), AsiaCCS’24 (Singapore), ...
 
 Review Service
 ------
