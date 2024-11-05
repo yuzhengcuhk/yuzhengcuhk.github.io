@@ -15,7 +15,7 @@ Prior to UCI, I obtained my Ph.D. degree in 2024 from the Department of Informat
 
 News
 ------
-- __[Nov 2024]__ I am excited to attend NeTS Early Career Investigator Workshop on January 15-16, 2025. I am grateful for NSF Travel Grant and my superviosr's great help! See you in Alexandria, Virginia ~
+- __[Nov 2024]__ I am excited to attend NeTS Early Career Investigator Workshop on January 15-16, 2025. I am grateful for NSF Travel Grant and my advisor's great help! See you in Alexandria, Virginia ~
 - __[Sep 2024]__ I joined DSP lab hosted by Prof. Zhou Li at University of California, Irvine!
 - __[Jun 2024]__ I passed my PhD defense!
 
