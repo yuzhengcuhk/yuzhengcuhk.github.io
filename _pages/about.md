@@ -15,6 +15,7 @@ Prior to UCI, I obtained my Ph.D. degree in 2024 from the Department of Informat
 
 News
 ------
+- __[May 2025]__ I am excited to attend S\&P in San Francisco. I will share our poster about ''[Grace](https://github.com/yuzhengcuhk/slides_collection/blob/main/25-DLSP(S%26P)-Grace.pdf)'' at DLSP@S&P on May 15. I am appreciated if you would like to give comments and suggestions to improve our work!
 - __[Nov 2024]__ I am excited to attend NSF NeTS Early Career Investigator Workshop on January 15-16, 2025. I am grateful for NSF Travel Grant and my advisor's great help! See you in Alexandria, Virginia ~
 - __[Sep 2024]__ I joined DSP lab hosted by Prof. Zhou Li at University of California, Irvine!
 - __[Jun 2024]__ I passed my PhD defense!
