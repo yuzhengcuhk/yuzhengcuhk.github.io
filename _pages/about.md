@@ -58,6 +58,7 @@ Selected Publication & Preprint
 
 - **Yu Zheng**, Heng Tian, Minxin Du, and Chong Fu. “Encrypted Video Search: Scalable, Modular, and Content-similar.” ACM Multimedia Systems Conference (MMSys), 2022. _(Best Student Paper Award)_
 
+<!--
 Program Committee
 ------
 CCS AE (24’,23’), NDSS AE (24’, also Discussion Lead in 24’), TheWebConf AE (24’), USENIX Security AE (24’), AAAI (25’), AJCAI (23’), EAI ICECI (24’), ICNC (25’).
@@ -72,6 +73,7 @@ Learning (Official): AISTATS (24’), ICLR (24’), ICML (24’), NeurIPS (24’
 
 Cryptography (External): AsiaCCS (19’), CRYPTO (19’), ESORICS (19’), ICICS (19’), IEEE S&P (25’), IEEE TIFS (19’), ISC (19’), NDSS (25’), RAID (23’), SecureComm (19’,18’), TheWebConf (23’,20’)
 
+<!--
 Awards
 ------
 - [2024] Conference Travel Award of IEEE SaTML, UToronto, Canada.
@@ -80,7 +82,7 @@ Awards
 - [2018] Postgraduate Studentship (~ 5 Years) offered by CUHK-IE.
 - [2017] ICCT Best Paper Award.
 - [2016/2015] National Scholarship of China (Top 0.2%).
-
+-->
 
 
 Misc
