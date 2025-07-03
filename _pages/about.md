@@ -34,7 +34,7 @@ Working Experience
 - __[Mar-May 2018]__ Research Assistant at Chinese University of Kong Kong.
  -->
 
-Selected Publication \& Preprint
+Selected Publication & Preprint
 ------
 \# denotes equal contribution.
 
