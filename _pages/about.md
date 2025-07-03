@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Postdoctoral Researcher in the Department of Electrical Engineering & Computer Science at University of California, Irvine (UCI) advised by [Prof. Zhou Li](https://faculty.sites.uci.edu/zhouli/). My research interests focus on privacy-preserving systems, secure machine learning, and applied cryptography. If you are interested into my research, welcome to contact me.
 
-Prior to UCI, I obtained my Ph.D. degree in 2024 from the Department of Information Engineering at Chinese University of Hong Kong (CUHK), and became an Interim Researcher co-advised by [Prof. Kehuan Zhang](https://scholar.google.com/citations?user=WJMoKskAAAAJ&hl=en) (also Thesis Committee Chair) at CUHK and [Prof. Kai Zhou](https://scholar.google.com/citations?user=J2QAuAUAAAAJ&hl=en) at Hong Kong Polytechnic University. I received my Bachelor's degree (ranking: 1/96) in 2018 in the Department of Communication Engineering at Northeastern University, China advised by [Prof. Chong Fu](https://scholar.google.com/citations?user=xq76xEMAAAAJ&hl=en). In industry, I finished the research internship at Ant Group (previously Alibaba Group) mentored by [Dr. Qizhi Zhang](https://scholar.google.co.jp/citations?user=YaeWXDEAAAAJ&hl=en) and [Dr. Lichun Li](https://dblp.org/pid/16/1282.html).
+<!-- Prior to UCI, I obtained my Ph.D. degree in 2024 from the Department of Information Engineering at Chinese University of Hong Kong (CUHK), and became an Interim Researcher co-advised by [Prof. Kehuan Zhang](https://scholar.google.com/citations?user=WJMoKskAAAAJ&hl=en) (also Thesis Committee Chair) at CUHK and [Prof. Kai Zhou](https://scholar.google.com/citations?user=J2QAuAUAAAAJ&hl=en) at Hong Kong Polytechnic University. I received my Bachelor's degree (ranking: 1/96) in 2018 in the Department of Communication Engineering at Northeastern University, China advised by [Prof. Chong Fu](https://scholar.google.com/citations?user=xq76xEMAAAAJ&hl=en). In industry, I finished the research internship at Ant Group (previously Alibaba Group) mentored by [Dr. Qizhi Zhang](https://scholar.google.co.jp/citations?user=YaeWXDEAAAAJ&hl=en) and [Dr. Lichun Li](https://dblp.org/pid/16/1282.html). -->
 
 
 News
@@ -20,6 +20,7 @@ News
 - __[Sep 2024]__ I joined DSP lab hosted by Prof. Zhou Li at University of California, Irvine!
 - __[Jun 2024]__ I passed my PhD defense!
 
+<!--
 Academic Degrees
 ------
 - __[2018 - 2024]__ PhD in Information Engineering, Chinese University of Hong Kong, Hong Kong SAR.
@@ -31,10 +32,19 @@ Working Experience
 - __[May-Sep 2022]__ Research Intern at Alibaba Group & Ant Group.
 - __[Sep-Nov 2020]__ Research Intern at 2012 Labs.
 - __[Mar-May 2018]__ Research Assistant at Chinese University of Kong Kong.
+ -->
 
-Selected Publication
+Selected Publication \& Preprint
 ------
 \# denotes equal contribution.
+
+- **Yu Zheng**, Chenang Li, Zhou Li, and Qingsong Wang. “Convergent Privacy Framework with Contractive GNN layers for Multi-hop Aggregations.” [arXiv](https://arxiv.org/pdf/2506.22727)
+
+- Jiacen Xu, Chenang Li, **Yu Zheng**, and Zhou Li. “Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning”. [arXiv](https://arxiv.org/pdf/2503.14284)
+
+- **Yu Zheng\#**, Qizhi Zhang\#, Chenang Li, Lichun Li, Kai Zhou, and Shan Yin. “Secure Graph Convolutional Network on Vertically Split Data from Sparse Matrix Decomposition.” [arXiv](https://arxiv.org/pdf/2502.09808) (Preliminary version accepted as extended abstract in DLSP@S&P’25)
+
+- **Yu Zheng**, Wenchao Zhang, Yonggang Zhang, Wei Song, Kai Zhou, and Bo Han. “Revisiting Privacy-Utility Trade-off for DP Training with Pre-existing Knowledge.” [arXiv](https://arxiv.org/pdf/2409.03344)
 
 - Xiangfu Song, **Yu Zheng**, Jianli Bai, Changyu Dong, Zheli Liu, and Ee-Chien Chang. “DISCO: Dynamic Searchable Encryption with Constant State.” ACM Asia Conference on Computer and Communications Security (AsiaCCS), 2024.
 
