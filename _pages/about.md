@@ -38,6 +38,8 @@ Selected Publication & Preprint
 ------
 \# denotes equal contribution.
 
+- Danyu Sun, Jinghuai Zhang, Jiacen Xu, **Yu Zheng**, Yuan Tian, and Zhou Li. "From Alerts to Intelligence: A Novel LLM-Aided Framework for Host-based Intrusion Detection." [arXiv](https://arxiv.org/pdf/2507.10873)
+
 - **Yu Zheng**, Chenang Li, Zhou Li, and Qingsong Wang. “Convergent Privacy Framework with Contractive GNN layers for Multi-hop Aggregations.” [arXiv](https://arxiv.org/pdf/2506.22727)
 
 - Jiacen Xu, Chenang Li, **Yu Zheng**, and Zhou Li. “Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning”. [arXiv](https://arxiv.org/pdf/2503.14284)
