@@ -38,6 +38,8 @@ Selected Publication & Preprint
 ------
 \# denotes equal contribution.
 
+- Xiuhua Wang, Shikang Li, Fengrui Fan, Shuai Wang, Yiwei Li, and **Yu Zheng**. "Improving Byzantine-resilience in Federated Learning via Diverse Aggregation and Adaptive Variance Reduction." International Conference on Information and Communications Security (ICICS), 2025.
+
 - Danyu Sun, Jinghuai Zhang, Jiacen Xu, **Yu Zheng**, Yuan Tian, and Zhou Li. "From Alerts to Intelligence: A Novel LLM-Aided Framework for Host-based Intrusion Detection." [arXiv](https://arxiv.org/pdf/2507.10873)
 
 - **Yu Zheng**, Chenang Li, Zhou Li, and Qingsong Wang. “Convergent Privacy Framework with Contractive GNN layers for Multi-hop Aggregations.” [arXiv](https://arxiv.org/pdf/2506.22727)
