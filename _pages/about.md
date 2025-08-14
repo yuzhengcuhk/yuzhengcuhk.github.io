@@ -37,18 +37,17 @@ Working Experience
 Selected Publication & Preprint
 ------
 \# denotes equal contribution.
+- Danyu Sun, Jinghuai Zhang, Jiacen Xu, **Yu Zheng**, Yuan Tian, and Zhou Li. "From Alerts to Intelligence: A Novel LLM-Aided Framework for Host-based Intrusion Detection." [arXiv](https://arxiv.org/pdf/2507.10873)
 
 - **Yu Zheng**, Chenang Li, Zhou Li, and Qingsong Wang. “Convergent Privacy Framework with Contractive GNN layers for Multi-hop Aggregations.” [arXiv](https://arxiv.org/pdf/2506.22727)
-
-- Jiacen Xu, Chenang Li, **Yu Zheng**, and Zhou Li. “Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning." Network and Distributed System Security Symposium (NDSS), 2026. 
-
-- Xiuhua Wang, Shikang Li, Fengrui Fan, Shuai Wang, Yiwei Li, and **Yu Zheng**. "Improving Byzantine-resilience in Federated Learning via Diverse Aggregation and Adaptive Variance Reduction." International Conference on Information and Communications Security (ICICS), 2025.
-
-- Danyu Sun, Jinghuai Zhang, Jiacen Xu, **Yu Zheng**, Yuan Tian, and Zhou Li. "From Alerts to Intelligence: A Novel LLM-Aided Framework for Host-based Intrusion Detection." [arXiv](https://arxiv.org/pdf/2507.10873)
 
 - **Yu Zheng\#**, Qizhi Zhang\#, Chenang Li, Lichun Li, Kai Zhou, and Shan Yin. “Secure Graph Convolutional Network on Vertically Split Data from Sparse Matrix Decomposition.” [arXiv](https://arxiv.org/pdf/2502.09808) (Preliminary version accepted as extended abstract in DLSP@S&P’25)
 
 - **Yu Zheng**, Wenchao Zhang, Yonggang Zhang, Wei Song, Kai Zhou, and Bo Han. “Revisiting Privacy-Utility Trade-off for DP Training with Pre-existing Knowledge.” [arXiv](https://arxiv.org/pdf/2409.03344)
+
+- Jiacen Xu, Chenang Li, **Yu Zheng**, and Zhou Li. “Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning." Network and Distributed System Security Symposium (NDSS), 2026. 
+
+- Xiuhua Wang, Shikang Li, Fengrui Fan, Shuai Wang, Yiwei Li, and **Yu Zheng**. "Improving Byzantine-resilience in Federated Learning via Diverse Aggregation and Adaptive Variance Reduction." International Conference on Information and Communications Security (ICICS), 2025.
 
 - Xiangfu Song, **Yu Zheng**, Jianli Bai, Changyu Dong, Zheli Liu, and Ee-Chien Chang. “DISCO: Dynamic Searchable Encryption with Constant State.” ACM Asia Conference on Computer and Communications Security (AsiaCCS), 2024.
 
