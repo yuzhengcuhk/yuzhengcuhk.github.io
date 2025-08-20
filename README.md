@@ -1,31 +1,162 @@
-A Github Pages template for academic websites. This was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License. See LICENSE.md.
+# Yash Patel - Academic Website
 
-I think I've got things running smoothly and fixed some major bugs, but feel free to file issues or make pull requests if you want to improve the generic template / theme.
+This is my personal academic website built with [Hugo](https://gohugo.io/) and the [Hugo Blox Builder](https://hugoblox.com/) Academic theme.
 
-### Note: if you are using this repo and now get a notification about a security vulnerability, delete the Gemfile.lock file. 
+## 🚀 Features
 
-# Instructions
+- **Modern Design**: Clean, professional academic website template
+- **Responsive**: Mobile-friendly design that works on all devices
+- **Fast**: Built with Hugo for optimal performance
+- **Academic Focus**: Designed specifically for researchers and academics
+- **Easy to Update**: Simple markdown-based content management
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/yashpatel5400/yashpatel5400.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
+## 🛠️ Technology Stack
 
-See more info at https://yashpatel5400.github.io/
+- **Static Site Generator**: Hugo v0.148.2+
+- **Theme**: Hugo Blox Builder Academic Theme
+- **Styling**: Tailwind CSS
+- **Deployment**: GitHub Pages
 
-## To run locally (not on GitHub Pages, to serve on your own computer)
+## 📁 Project Structure
 
-1. Clone the repository and made updates as detailed above
-1. Make sure you have ruby-dev, bundler, and nodejs installed: `sudo apt install ruby-dev ruby-bundler nodejs`
-1. Run `bundle clean` to clean up the directory (no need to run `--force`)
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-1. Run `bundle exec jekyll liveserve` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
+```
+yashpatel5400.github.io/
+├── config/                    # Hugo configuration files
+│   └── _default/
+│       ├── hugo.yaml         # Main Hugo configuration
+│       ├── module.yaml       # Hugo modules configuration
+│       ├── params.yaml       # Site parameters and content
+│       ├── menus.yaml        # Navigation menu structure
+│       └── languages.yaml    # Language settings
+├── content/                   # Website content
+│   ├── authors/              # Author profiles
+│   ├── publications/         # Academic publications
+│   ├── projects/             # Portfolio projects
+│   └── _index.md            # Home page content
+├── static/                    # Static assets
+│   ├── images/               # Images and avatars
+│   └── files/                # PDFs and other files
+├── go.mod                     # Go modules configuration
+└── README.md                 # This file
+```
 
-# Changelog -- bugfixes and enhancements
+## 🚀 Getting Started
 
-There is one logistical issue with a ready-to-fork template theme like academic pages that makes it a little tricky to get bug fixes and updates to the core theme. If you fork this repository, customize it, then pull again, you'll probably get merge conflicts. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch. 
+### Prerequisites
 
-To support this, all changes to the underlying code appear as a closed issue with the tag 'code change' -- get the list [here](https://github.com/yashpatel5400/yashpatel5400.github.io/issues?q=is%3Aclosed%20is%3Aissue%20label%3A%22code%20change%22%20). Each issue thread includes a comment linking to the single commit or a diff across multiple commits, so those with forked repositories can easily identify what they need to patch.
+- [Hugo Extended](https://gohugo.io/installation/) (v0.148.2+)
+- [Go](https://golang.org/doc/install) (v1.25+)
+
+### Local Development
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yashpatel5400/yashpatel5400.github.io.git
+   cd yashpatel5400.github.io
+   ```
+
+2. **Install Hugo modules**:
+   ```bash
+   hugo mod tidy
+   ```
+
+3. **Start the development server**:
+   ```bash
+   hugo server --bind 0.0.0.0 --port 1313
+   ```
+
+4. **View the site**: Open [http://localhost:1313](http://localhost:1313) in your browser
+
+### Building for Production
+
+```bash
+hugo
+```
+
+This creates a `public/` directory with the built site ready for deployment.
+
+## 📝 Content Management
+
+### Adding Publications
+
+Create new files in `content/publications/` with the following front matter:
+
+```markdown
+---
+title: "Publication Title"
+date: 2024-01-01
+draft: false
+publication_types: ["1"]  # 1 = article, 2 = book, etc.
+authors: ["yash-patel"]
+summary: "Brief description of the publication"
+tags: ["machine-learning", "statistics"]
+---
+```
+
+### Adding Projects
+
+Create new files in `content/projects/` with the following front matter:
+
+```markdown
+---
+title: "Project Name"
+date: 2024-01-01
+draft: false
+tags: ["python", "machine-learning"]
+external_link: "https://github.com/username/project"
+---
+```
+
+### Updating Profile
+
+Edit `content/authors/yash-patel/_index.md` to update your personal information, bio, and social links.
+
+## 🎨 Customization
+
+### Site Configuration
+
+- **Main settings**: Edit `config/_default/hugo.yaml`
+- **Site parameters**: Edit `config/_default/params.yaml`
+- **Navigation**: Edit `config/_default/menus.yaml`
+- **Modules**: Edit `config/_default/module.yaml`
+
+### Styling
+
+The site uses Tailwind CSS through Hugo Blox Builder. Custom styles can be added in the `assets/` directory.
+
+## 🚀 Deployment
+
+### GitHub Pages
+
+1. **Build the site**:
+   ```bash
+   hugo
+   ```
+
+2. **Deploy to GitHub Pages**:
+   - Push the `public/` directory to the `gh-pages` branch, or
+   - Use GitHub Actions for automatic deployment
+
+### Netlify
+
+1. **Connect your repository** to Netlify
+2. **Build command**: `hugo`
+3. **Publish directory**: `public`
+
+## 📚 Resources
+
+- [Hugo Documentation](https://gohugo.io/documentation/)
+- [Hugo Blox Builder Documentation](https://docs.hugoblox.com/)
+- [Academic Theme Guide](https://docs.hugoblox.com/tutorial/)
+
+## 🤝 Contributing
+
+This is a personal website, but if you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+**Built with ❤️ using Hugo and Hugo Blox Builder**
