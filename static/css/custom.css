@@ -1,0 +1,139 @@
+/* Custom Social Icons for the existing minimal theme sidebar */
+
+/* Style the JavaScript-injected social links */
+.sidebar-social-links {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.sidebar-social-links h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  color: #333;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.sidebar-social-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-social-links li {
+  margin-bottom: 0.75rem;
+}
+
+.sidebar-social-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.sidebar-social-links a:hover {
+  background-color: #e9ecef;
+  transform: translateX(3px);
+  color: #007acc;
+}
+
+.sidebar-social-links i {
+  width: 20px;
+  margin-right: 10px;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Font Awesome 6 specific styling */
+.sidebar-social-links .fa-solid {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+
+.sidebar-social-links .fa-brands {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+}
+
+.sidebar-social-links .fa-regular {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+}
+
+.sidebar-social-links span {
+  font-weight: 500;
+}
+
+/* Social icon colors - updated for fa-brands */
+.sidebar-social-links .fa-envelope {
+  color: #d44638;
+}
+
+.sidebar-social-links .fa-github {
+  color: #333;
+}
+
+.sidebar-social-links .fa-linkedin {
+  color: #0077b5;
+}
+
+.sidebar-social-links .fa-twitter {
+  color: #1da1f2;
+}
+
+.sidebar-social-links .fa-graduation-cap {
+  color: #4285f4;
+}
+
+.sidebar-social-links .fa-file-lines {
+  color: #666;
+}
+
+/* Hover effects for icon colors */
+.sidebar-social-links a:hover .fa-envelope {
+  color: #b31b1b;
+}
+
+.sidebar-social-links a:hover .fa-github {
+  color: #000;
+}
+
+.sidebar-social-links a:hover .fa-linkedin {
+  color: #005885;
+}
+
+.sidebar-social-links a:hover .fa-twitter {
+  color: #0c7abf;
+}
+
+.sidebar-social-links a:hover .fa-graduation-cap {
+  color: #3367d6;
+}
+
+.sidebar-social-links a:hover .fa-file-lines {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .sidebar-social-links {
+    margin-top: 1rem;
+    padding: 0.75rem;
+  }
+  
+  .sidebar-social-links a {
+    padding: 0.4rem;
+  }
+  
+  .sidebar-social-links i {
+    width: 18px;
+    margin-right: 8px;
+    font-size: 14px;
+  }
+}

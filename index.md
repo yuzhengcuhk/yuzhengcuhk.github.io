@@ -3,9 +3,95 @@ layout: default
 title: Yash Patel
 ---
 
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<!-- Alternative Font Awesome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
+
+<!-- Custom CSS for social links styling -->
+<link rel="stylesheet" href="/css/custom.css">
+
+<!-- JavaScript to inject social links into sidebar -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Hide the email text
+  const emailParagraph = document.querySelector('header p');
+  if (emailParagraph) {
+    emailParagraph.style.display = 'none';
+  }
+  
+  // Create social links HTML
+  const socialLinksHTML = `
+    <div class="sidebar-social-links">
+      <h3><u>Profiles</u></h3>
+      <ul>
+        <li>
+          <a href="mailto:yppatel@umich.edu">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Email</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/yashpatel5400">
+            <i class="fa-brands fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/yash-patel-297b87a1/">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/YashPat90148435">
+            <i class="fa-brands fa-twitter"></i>
+            <span>X (Twitter)</span>
+          </a>
+        </li>
+        <li>
+          <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Google Scholar</span>
+          </a>
+        </li>
+        <li>
+          <a href="/files/CV.pdf">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>CV</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  `;
+  
+  // Insert social links after the profile image
+  const profileImage = document.querySelector('header img');
+  if (profileImage) {
+    profileImage.insertAdjacentHTML('afterend', socialLinksHTML);
+  }
+  
+  // Debug: Check if Font Awesome is loaded
+  console.log('Font Awesome loaded:', typeof FontAwesome !== 'undefined');
+  
+  // Debug: Check if icons are visible
+  setTimeout(() => {
+    const icons = document.querySelectorAll('.sidebar-social-links i');
+    console.log('Found icons:', icons.length);
+    icons.forEach((icon, index) => {
+      console.log(`Icon ${index}:`, icon.className, icon.offsetWidth, icon.offsetHeight);
+    });
+  }, 1000);
+});
+</script>
+
+
+
 <p align="center">
   <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/yashpatel5400">GitHub</a>
 </p>
+
+
 
 Hi! I'm a 5th year PhD student in Statistics at the University of Michigan, where I focus on <b>uncertainty quantification</b>, <b>robust decision-making</b>, and <b>AI for Science</b>, advised by [Ambuj Tewari](https://ambujtewari.github.io/). I have significant prior experience with <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b>. My research interest centers around one core question:
 
