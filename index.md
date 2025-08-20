@@ -7,7 +7,7 @@ title: Yash Patel
   <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/yashpatel5400">GitHub</a>
 </p>
 
-Hi! I'm a 5th year PhD student in Statistics at the University of Michigan, where I focus on <b>uncertainty quantification</b>, <b>robust decision-making</b>, and <b>AI for Science</b>, advised by [Ambuj Tewari](https://ambujtewari.github.io/). My research interest centers around one core question:
+Hi! I'm a 5th year PhD student in Statistics at the University of Michigan, where I focus on <b>uncertainty quantification</b>, <b>robust decision-making</b>, and <b>AI for Science</b>, advised by [Ambuj Tewari](https://ambujtewari.github.io/). I have significant prior experience with <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b>. My research interest centers around one core question:
 
 <i>
 How can we design principled uncertainty estimates for black-box models and use such uncertainty optimally for decision-making?
@@ -36,7 +36,7 @@ My work has largely focused on developing methods with end-to-end statistical gu
 Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br>
 [<a href="https://arxiv.org/abs/2405.16246">Paper</a>] [<a href="https://github.com/yashpatel5400/fusioncp">GitHub</a>] <br>
 
-<b><u>Amortized Variational Inference with Coverage Guarantees</u></b><br>
+<b><u>Variational Inference with Coverage Guarantees in Simulation-Based Inference</u></b><br>
 <i>International Conference on Machine Learning (ICML), 2024</i><br>
 <b>Patel, Y.</b>, McNamara, D., Loper, J., Regier, J., Tewari, A.<br>
 [<a href="https://proceedings.mlr.press/v235/patel24a.html">Paper</a>] [<a href="https://github.com/yashpatel5400/canvi">GitHub</a>] <br>
@@ -77,17 +77,17 @@ Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br>
 
 <b><u>Diffusion Models for Probabilistic Deconvolution of Galaxy Images</u></b><br>
 <i>ICML Machine Learning for Astrophysics Workshop, 2023</i><br>
-Li, Y., Xue, Z., **Patel, Y.**, Regier, J.<br>
+Li, Y., Xue, Z., <b>Patel, Y.</b>, Regier, J.<br>
 [<a href="https://ml4astro.github.io/icml2023/assets/37.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/galgen">GitHub</a>] <br>
 
 <b><u>RL Boltzmann Generators for Conformer Generation in Data-Sparse Environments</u></b><br>
 <i>NeurIPS Machine Learning in Structural Biology (MLSB) Workshop, 2022</i><br>
-**Patel, Y.**, Tewari, A.<br>
+<b>Patel, Y.</b>, Tewari, A.<br>
 [<a href="https://www.mlsb.io/papers_2022/RL_Boltzmann_Generators_for_Conformer_Generation_in_Data_Sparse_Environments.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/clean_idp_rl">GitHub</a>] <br>
 
 <b><u>Scalable Bayesian Inference for Finding Strong Gravitational Lenses</u></b><br>
 <i>NeurIPS Machine Learning and the Physical Sciences Workshop, 2022</i><br>
-**Patel, Y.**, Regier, J.<br>
+<b>Patel, Y.</b>, Regier, J.<br>
 [<a href="https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_155.pdf">Workshop Paper</a>] [<a href="https://github.com/prob-ml/bliss">GitHub</a>] <br>
 
 <h3 align="left" id="ai_for_science">
@@ -96,7 +96,7 @@ Li, Y., Xue, Z., **Patel, Y.**, Regier, J.<br>
 
 <b><u>Holographic Calling for Artificial Reality</u></b><br>
 <i>US Patent App. 17/360,693</i><br>
-AP Pozo, J Virskus, G Venkatesh, K Li, SC Chen, A Kumar, R Ranjan, BK Cabral, SA Johnson, W Ye, MA Snower, **Y Patel**.<br>
+AP Pozo, J Virskus, G Venkatesh, K Li, SC Chen, A Kumar, R Ranjan, BK Cabral, SA Johnson, W Ye, MA Snower, <b>Y Patel</b>.<br>
 [<a href="https://patents.google.com/patent/US20220413433A1/en">Patent</a>] <br>
 
 ---
@@ -110,7 +110,7 @@ During my PhD, I have also had the opportunity to mentor the following fantastic
 <b>[Guyang (Kevin) Cao](https://www.linkedin.com/in/guyang-kevin-cao-410b28205/)</b> (<b><u>Next step:</u></b> Ph.D. in Computer Science at University of Wisconsin-Madison)<br>
 <i>[Honors Thesis](https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf), 2023-24</i><br> 
 <i>Undergraduate Research Program in Statistics, 2023</i><br> 
-[Non-parametric Conformal Distributionally Robust Optimization](https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf)<br>
+[Non-parametric Conformal Distributionally Robust Optimization](https://openreview.net/pdf?id=WavglEUVTR)<br>
 
 <b>[Zhiwei Xue](https://www.linkedin.com/in/zhiwei-xue-280b84256/)</b> (<b><u>Next step:</u></b> Ph.D. in Computer Science at National University of Singapore)<br>
 <i>Undergraduate Research Program in Statistics, 2023</i><br> 
@@ -155,4 +155,4 @@ Outside of my formal research projects, I have worked on a wide spread of projec
   Miscellaneous
 </h2>
 
-Outside of research, I really enjoy lifting and [reading](https://www.goodreads.com/user/show/83094203-yash-patel). If you want to contact me, please reach out at yppatel [at] umich.edu<br>!
+Outside of research, I really enjoy lifting and [reading](https://www.goodreads.com/user/show/83094203-yash-patel). If you want to contact me, please reach out at yppatel [at] umich.edu!
