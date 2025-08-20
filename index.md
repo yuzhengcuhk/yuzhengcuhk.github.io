@@ -118,7 +118,7 @@ My work has largely focused on developing methods with end-to-end statistical gu
 </h3>
 
 <b><u>Conformal Prediction for Ensembles: Improving Efficiency via Score-Based Aggregation</u></b><br>
-<i>NeurIPS 2025</i><br>
+<i>Neural Information Processing Systems (NeurIPS), 2025</i><br>
 Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br>
 [<a href="https://arxiv.org/abs/2405.16246">Paper</a>] [<a href="https://github.com/yashpatel5400/fusioncp">GitHub</a>] <br>
 
