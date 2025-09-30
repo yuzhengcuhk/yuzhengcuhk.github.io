@@ -161,6 +161,11 @@ Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br>
 <b>Patel, Y.*</b>, Subedi, U.\* (\* equal contribution), Tewari, A.<br>
 [<a href="https://arxiv.org/abs/2505.18288">Paper</a>] [<a href="https://github.com/yashpatel5400/schrodinger_op">GitHub</a>] <br>
 
+<b><u>A Greedy PDE Router for Blending Neural Operators and Classical Methods</u></b><br>
+<i>In Submission</i><br>
+Rayan, S., <b>Patel, Y.</b>, Tewari, A.<br>
+[<a href="https://arxiv.org/abs/2509.24814">Paper</a>] <br>
+
 <b><u>Diffusion Models for Probabilistic Deconvolution of Galaxy Images</u></b><br>
 <i>ICML Machine Learning for Astrophysics Workshop, 2023</i><br>
 Li, Y., Xue, Z., <b>Patel, Y.</b>, Regier, J.<br>
