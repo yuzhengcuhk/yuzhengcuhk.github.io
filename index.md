@@ -164,7 +164,7 @@ Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br>
 <b><u>A Greedy PDE Router for Blending Neural Operators and Classical Methods</u></b><br>
 <i>In Submission</i><br>
 Rayan, S., <b>Patel, Y.</b>, Tewari, A.<br>
-[<a href="https://arxiv.org/abs/2509.24814">Paper</a>] <br>
+[<a href="https://arxiv.org/abs/2509.24814">Paper</a>] [<a href="https://github.com/srayan00/greedy-hybrid-pde">GitHub</a>] <br>
 
 <b><u>Diffusion Models for Probabilistic Deconvolution of Galaxy Images</u></b><br>
 <i>ICML Machine Learning for Astrophysics Workshop, 2023</i><br>
