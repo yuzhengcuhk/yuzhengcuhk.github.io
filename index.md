@@ -210,7 +210,7 @@ Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmoni
             <i>Princeton University Senior Thesis, 2018</i><br> 
 
             <li>Tesla Autopilot Analysis [<a href="http://yashpatel5400.github.io/files/tesla.pdf">Project Report</a>] </li>
-            <li>Neural Branch Predictor [<a href="https://github.com/yashpatel5400/neuropath/">Code</a>] </li>            
+            <li>Neural Branch Predictor [<a href="https://yashpatel5400.github.io/neuropath/">Website</a>] [<a href="https://github.com/yashpatel5400/neuropath/">Code</a>] </li>            
           </ul>
         </p>
         <div class="timeline-subitems">
