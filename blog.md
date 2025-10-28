@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <a href="{{ '/' | relative_url }}#papers">Selected Papers</a> |
   <a href="{{ '/' | relative_url }}#mentoring">Mentoring</a> |
   <a href="{{ '/' | relative_url }}#projects">Projects</a> |
-  <span class="nav-current">Blog</span> |
+  <span class="nav-current">Blog</span>
 </p>
 
 <h2>Writing & Reflections</h2>
