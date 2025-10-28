@@ -9,7 +9,7 @@ title: Yash Patel
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.4.0/css/all.css">
 
 <!-- Custom CSS for social links styling -->
-<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="{{ '/static/css/custom.css' | relative_url }}">
 
 <!-- JavaScript to inject social links into sidebar -->
 <script>
@@ -23,7 +23,6 @@ document.addEventListener('DOMContentLoaded', function() {
   // Create social links HTML
   const socialLinksHTML = `
     <div class="sidebar-social-links">
-      <h3><u>Profiles</u></h3>
       <ul>
         <li>
           <a href="mailto:yppatel@umich.edu">
@@ -85,25 +84,187 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
-
-
 <p align="center">
-  <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">Google Scholar</a> | <a href="https://github.com/yashpatel5400">GitHub</a>
+  <span class="nav-current">Home</span> | <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="{{ '/blog/' | relative_url }}">Blog</a>
 </p>
 
+Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmonic</a> with significant prior experience in <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b>. I am most excited about using ML for accelerating scientific discovery. 
 
+<div class="timeline-section">
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="{{ '/static/images/timeline/harmonic.png' | relative_url }}" alt="Harmonic logo" loading="lazy">
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-heading">
+          <span class="timeline-organization">Harmonic</span>
+          <span class="timeline-duration"><strong>Jan 2026 – Present</strong></span>
+        </div>
+        <p class="timeline-role">Research Engineer</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="{{ '/static/images/timeline/university-of-michigan.png' | relative_url }}" alt="University of Michigan logo" loading="lazy">
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-heading">
+          <span class="timeline-organization">University of Michigan</span>
+          <span class="timeline-duration"><strong>Sep 2021 – Dec 2025</strong></span>
+        </div>
+        <p class="timeline-role">PhD in Statistics &middot; <a class="timeline-mentor" href="https://ambujtewari.github.io/" target="_blank" rel="noopener">Ambuj Tewari</a></p>
+        <p class="timeline-description">
+          My research focuses during my PhD were on <a href="#uq_methods">principled uncertainty quantification</a>, <a href="#robust_decision_making">robust decision-making</a>, and <a href="#ai_for_science">AI for Science</a>. Given the importance of uncertainty in evaluating scientific hypotheses, my initial work primarily centered around one core question:
 
-Hi! I'm a 5th year PhD student in Statistics at the University of Michigan, where I focus on <b>uncertainty quantification</b>, <b>robust decision-making</b>, and <b>AI for Science</b>, advised by [Ambuj Tewari](https://ambujtewari.github.io/). I have significant prior experience with <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b>. My research interest centers around one core question:
+          <i>
+          How can we design principled uncertainty estimates for black-box models and use such uncertainty optimally for decision-making?
+          </i>
+        </p>
+        <div class="timeline-subitems">
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/anthropic.png' | relative_url }}" alt="Anthropic logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Anthropic</span>
+                <span class="timeline-subitem-duration">Nov 2025 – Present</span>
+              </div>
+              <p class="timeline-subitem-role">AI Safety Fellow</p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/waymo.png' | relative_url }}" alt="Waymo logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Waymo</span>
+                <span class="timeline-subitem-duration">Jun 2025 – Sep 2025</span>
+              </div>
+              <p class="timeline-subitem-role">Data Science PhD Intern, Simulations &middot; <a class="timeline-mentor" href="https://amansinha.com/" target="_blank" rel="noopener">Aman Sinha</a></p>
+              <p class="timeline-subitem-note">
+                Implemented an ADMM-based distributed convex optimization algorithm in C++ for importance sampling of rare events to achieve a 20x speedup in the simulations pipeline.
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/bose.png' | relative_url }}" alt="Bose logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Bose</span>
+                <span class="timeline-subitem-duration">Jan 2025 – Jun 2025</span>
+              </div>
+              <p class="timeline-subitem-role">Machine Learning Research Co-op &middot; <a class="timeline-mentor" href="https://scholar.google.com/citations?user=wkPH71QAAAAJ&hl=en" target="_blank" rel="noopener">Russell Izadi</a>, <a class="timeline-mentor" href="https://zangsir.github.io/" target="_blank" rel="noopener">Shuo Zhang</a></p>
+              <p class="timeline-subitem-note">
+                Implemented SAC and PPO methods for adaptive-FIR noise cancellation (PyTorch). Developed novel transformer-based approach for Wiener filter adaptation that outperforms FxLMS (10% dB reduction). Performed linear system identification and analyzed transfer functions to assess ML filtering.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="{{ '/static/images/timeline/meta.png' | relative_url }}" alt="Meta logo" loading="lazy">
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-heading">
+          <span class="timeline-organization">Meta</span>
+          <span class="timeline-duration"><strong>Jul 2018 – Sep 2021</strong></span>
+        </div>
+        <p class="timeline-role">Senior Software Engineer (IC5) &middot; <a class="timeline-mentor" href="https://scholar.google.com/citations?user=hGJS1NkAAAAJ&hl=en" target="_blank" rel="noopener">Albert Parra Pozo</a></p>
+        <p class="timeline-description">
+          At Facebook, I worked on a number of projects, generally in 3D rendering and reconstruction. Some highlights:
+          <ul class="timeline-description-list">
+            <li>Designed and implemented novel real-time (72 FPS) novel dynamic object reconstruction algorithm for 300k+ vertex meshes in Unity HLSL/C# based on linear-blend skinning (LBS)</li>
+            <li>Implemented real-time (72 FPS) point cloud, dense mesh, and TSDFs (KinectFusion) scene reconstruction & rendering on HMDs & lenticular displays with C++/OpenGL/GLES/OpenCL.</li>
+            <li>Implemented deep learning model (PyTorch) and optimized via Qualcomm SNPE & QAT to run at 30 FPS on Qualcomm SoC for Portal platforms. Added translation support for quantized nodes in PyTorch-JIT to Caffe2.</li>
+            <li>Added distributed rendering with Docker, RabbitMQ, and Kubernetes to <a href="https://github.com/facebook/facebook360_dep">Manifold</a> camera (<a href="https://github.com/facebook/facebook360_dep/tree/main" target="_blank" rel="noopener">code</a>). Reduced depth estimation time by 30%.</li>
+          </ul>
+        </p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-logo">
+        <img src="{{ '/static/images/timeline/princeton.png' | relative_url }}" alt="Princeton University / Hyperloop logo" loading="lazy">
+      </div>
+      <div class="timeline-content">
+        <div class="timeline-heading">
+          <span class="timeline-organization">Princeton University</span>
+          <span class="timeline-duration"><strong>Sep 2014 – May 2018</strong></span>
+        </div>
+        <p class="timeline-role">A.B. in Mathematics &middot; <a class="timeline-mentor" href="https://www.cs.princeton.edu/~smattw/" target="_blank" rel="noopener">Matt Weinberg</a><br>
+        Certificates in Applications of Computing, Statistics &amp; ML</p>
+        <p class="timeline-description">
+          My interests over undergrad meandered through many areas. Some highlights:
+          <ul class="timeline-description-list">
+            <li>HyperLoop Pod Design [<a href="http://yashpatel5400.github.io/files/hyperloop.pdf">Project Report</a>]</li> 
+            <i>Princeton University Project Founder & Lead, 2015-2017</i><br> 
+            <i>2x Top 30 Team, International SpaceX HyperLoop Pod Design Competition</i><br>
 
-<i>
-How can we design principled uncertainty estimates for black-box models and use such uncertainty optimally for decision-making?
-</i>
+            <li>Deanonymizing Bitcoin Transactions: An Investigative Study On Large-scale Graph Clustering [<a href="http://yashpatel5400.github.io/files/deanonymization.pdf">Project Report</a>]</li>
+            <i>Princeton University Senior Thesis, 2018</i><br> 
 
-During my PhD, I have interned at [Waymo](https://waymo.com/) under [Aman Sinha](https://amansinha.com/) on <b>distributed convex optimization</b> for optimal importance sampling of rare events and at [Bose](https://www.bose.com/home) under [Shuo Zhang](https://zangsir.github.io/about/) and [Russell Izadi](https://russellizadi.github.io/) on <b>reinforcement learning</b> for adaptive noise cancellation. 
+            <li>Tesla Autopilot Analysis [<a href="http://yashpatel5400.github.io/files/tesla.pdf">Project Report</a>] </li>
+            <li>Neural Branch Predictor [<a href="https://github.com/yashpatel5400/neuropath/">Code</a>] </li>            
+          </ul>
+        </p>
+        <div class="timeline-subitems">
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/amazon.png' | relative_url }}" alt="Amazon logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Amazon</span>
+                <span class="timeline-subitem-duration">Jun 2017 – Aug 2017</span>
+              </div>
+              <p class="timeline-subitem-role">Software Engineering Intern</p>
+              <p class="timeline-subitem-note">
+                Built Java Spring MVC debugging service for Kiva Picking Optimization team. Deployed globally via AWS (EC2, S3, SNS).
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/openloop.png' | relative_url }}" alt="OpenLoop coalition logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">OpenLoop</span>
+                <span class="timeline-subitem-duration">Jan 2015 – May 2016</span>
+              </div>
+              <p class="timeline-subitem-role">Co-founder & Princeton University Lead</p>
+              <p class="timeline-subitem-note">
+                Co-founded a coalition of six top universities (<a href="https://www.linkedin.com/company/openloop/about/" target="_blank" rel="noopener">OpenLoop</a>), raised &gt;$150,000, and built an 18&nbsp;ft functional pod selected as one of 30 teams in the International SpaceX HyperLoop Pod Design Competition (<a href="{{ '/static/images/openloop.png' | relative_url }}" target="_blank" rel="noopener">Pod</a>).
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/columbia.png' | relative_url }}" alt="Columbia University logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Columbia University</span>
+                <span class="timeline-subitem-duration">May 2015 – Aug 2015</span>
+              </div>
+              <p class="timeline-subitem-role">Research Intern &middot; <a class="timeline-mentor" href="https://abdulforsenate.com/" target="_blank" rel="noopener">Abdulrahmen El-Sayed</a></p>
+              <p class="timeline-subitem-note">
+                Developed and simulated agent-based models of self-efficacy dynamics for sexual minority populations enrolled in exercise coach programs (<a href="https://github.com/yashpatel5400/SexualEqualityABM" target="_blank" rel="noopener">code</a>).
+              </p>
+            </div>
+          </div>
+        </div>
 
-Prior to my PhD, I was a <b>senior software engineer (IC5) at Meta</b> from 2018-2021, where I worked on computer vision and graphics for realtime dense [3D reconstruction](https://bkcabralwebsite.appspot.com/An-Integrated-6DoF-Video-Camera-and-System-Design.pdf) (point clouds/KinectFusion) and dynamic real-time disocclusion on meshes. I also implemented, trained, and optimized (with layer fusion, SNPE, and QAT quantization) an end-to-end deep learning-based feature for Portal to run at realtime on the Snapdragon SoC. 
-
-Before working at Meta, I graduated as a <b>math major from Princeton</b> in 2018 with certificates in CS and Statistics/ML, where my senior thesis focused on adversarial behaviors on blockchain networks and was advised by [Matt Weinberg](https://www.cs.princeton.edu/~smattw/). See my full resume [here](http://yashpatel5400.github.io/files/CV.pdf).
+      </div>
+    </div>
+  </div>
+</div>
 
 <h2 align="center" id="papers">
   Selected Papers
@@ -221,24 +382,19 @@ Atomic Maps Reconstruction for Cryo-EM Data with Continuous Heterogeneity<br>
   Highlighted Projects
 </h2>
 
-Outside of my formal research projects, I have worked on a wide spread of projects, spanning <b>multi-armed bandits</b>, <b>computational fluid dynamics</b>, and <b>importance sampling for rendering</b>. Here are some highlights.
+Outside of my formal research projects, I still enjoy spinning up miscellaneous coding projects. Here are some highlights.
 
 <b><u>Multiple Importance Sampling in Light Transport</u></b> <br>
 <i>University of Michigan Project, 2021</i><br> 
 [<a href="http://yashpatel5400.github.io/files/light_transport_mis.pdf">Project Report</a>] [<a href="https://github.com/yashpatel5400/raytrace-montecarlo">GitHub</a>] <br>
 
-<b><u>HyperLoop Pod Design</u></b> <br>
-<i>Princeton University Project Founder & Lead, 2015-2017</i><br> 
-<i>2x Top 30 Team, International SpaceX HyperLoop Pod Design Competition</i><br>
-[<a href="http://yashpatel5400.github.io/files/hyperloop.pdf">Project Report</a>] <br>
+<b><u>Chainlink Price Aggregation for Agoric</u></b> <br>
+<i>Gitcoin Bounty Project, 2021</i><br> 
+[<a href="https://github.com/yashpatel5400/agoric-sdk/commit/99fe4a4da207372cd70a6ec291dc36002974484f">GitHub</a>] <br>
 
-<b><u>Tesla Autopilot Analysis</u></b> <br>
-<i>Princeton University Project, 2016</i><br> 
-[<a href="http://yashpatel5400.github.io/files/tesla.pdf">Project Report</a>] <br>
-
-<b><u>Deanonymizing Bitcoin Transactions: An Investigative Study On Large-scale Graph Clustering</u></b><br>
-<i>Princeton University Senior Thesis, 2018</i><br> 
-[<a href="http://yashpatel5400.github.io/files/deanonymization.pdf">Project Report</a>] <br>
+<b><u>Intertect: Learn Computer Architecture</u></b> <br>
+<i>Side Project, 2019</i><br> 
+[<a href="https://github.com/yashpatel5400/intertect">GitHub</a>] <br>
 
 * * *
 
@@ -246,4 +402,34 @@ Outside of my formal research projects, I have worked on a wide spread of projec
   Miscellaneous
 </h2>
 
-Outside of research, I really enjoy lifting and [reading](https://www.goodreads.com/user/show/83094203-yash-patel). If you want to contact me, please reach out at yppatel [at] umich.edu!
+Outside of research, I really enjoy [reading](https://www.goodreads.com/user/show/83094203-yash-patel) and lifting! Here are my current numbers (and slightly outdated videos):
+
+<div class="lifting-stats">
+  <div class="lift-card">
+    <a class="lift-link" href="https://drive.google.com/file/d/1MW1FPgOHLkocXe7WWg0xKQ-sfgv1J--M/view?usp=drive_link" target="_blank" rel="noopener">
+      <div class="lift-circle">
+        <img src="{{ '/static/images/timeline/bench.png' | relative_url }}" alt="Bench press icon">
+        <span class="lift-number">230</span>
+      </div>
+      <div class="lift-label">Bench</div>
+    </a>
+  </div>
+  <div class="lift-card">
+    <a class="lift-link" href="https://drive.google.com/file/d/12F486JD9CegwHDFYiVF3EKkUhkD06clw/view?usp=drive_link" target="_blank" rel="noopener">
+      <div class="lift-circle">
+        <img src="{{ '/static/images/timeline/squat.png' | relative_url }}" alt="Squat icon">
+        <span class="lift-number">330</span>
+      </div>
+      <div class="lift-label">Squat</div>
+    </a>
+  </div>
+  <div class="lift-card">
+    <a class="lift-link" href="https://drive.google.com/file/d/1SmRCJTjZZL7kgcg5ELpkQqovh_yXwEI2/view?usp=drive_link" target="_blank" rel="noopener">
+      <div class="lift-circle">
+        <img src="{{ '/static/images/timeline/deadlift.png' | relative_url }}" alt="Deadlift icon">
+        <span class="lift-number">515</span>
+      </div>
+      <div class="lift-label">Deadlift</div>
+    </a>
+  </div>
+</div>
