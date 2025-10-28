@@ -216,6 +216,21 @@ Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmoni
         <div class="timeline-subitems">
           <div class="timeline-subitem">
             <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/polymarket.png' | relative_url }}" alt="Polymarket logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Polymarket</span>
+                <span class="timeline-subitem-duration">Jan 2018 – Jun 2018</span>
+              </div>
+              <p class="timeline-subitem-role">Early-Stage Developer &middot; <a class="timeline-mentor" href="https://en.wikipedia.org/wiki/Shayne_Coplan" target="_blank" rel="noopener">Shayne Coplan</a></p>
+              <p class="timeline-subitem-note">
+                Worked on core pre-ICO development, integrating Bancor protocol liquidity and exchanges with the primary TokenDAO in Solidity (Truffle.js, testrpc, geth).
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
               <img src="{{ '/static/images/timeline/amazon.png' | relative_url }}" alt="Amazon logo" loading="lazy">
             </div>
             <div class="timeline-subitem-content">
@@ -256,6 +271,21 @@ Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmoni
               <p class="timeline-subitem-role">Research Intern &middot; <a class="timeline-mentor" href="https://abdulforsenate.com/" target="_blank" rel="noopener">Abdulrahmen El-Sayed</a></p>
               <p class="timeline-subitem-note">
                 Developed and simulated agent-based models of self-efficacy dynamics for sexual minority populations enrolled in exercise coach programs (<a href="https://github.com/yashpatel5400/SexualEqualityABM" target="_blank" rel="noopener">code</a>).
+              </p>
+            </div>
+          </div>
+          <div class="timeline-subitem">
+            <div class="timeline-subitem-logo">
+              <img src="{{ '/static/images/timeline/pppl.png' | relative_url }}" alt="Princeton Plasma Physics Lab logo" loading="lazy">
+            </div>
+            <div class="timeline-subitem-content">
+              <div class="timeline-subitem-heading">
+                <span class="timeline-subitem-organization">Princeton Plasma Physics Lab</span>
+                <span class="timeline-subitem-duration">Jun 2013 – Mar 2014</span>
+              </div>
+              <p class="timeline-subitem-role">Research Intern &middot; <a class="timeline-mentor" href="https://www.princeton.edu/~idodin/" target="_blank" rel="noopener">Ilya Dodin</a></p>
+              <p class="timeline-subitem-note">
+                Developed FDTD numerical simulations in C++/Python of the Vlasov equation (<a href="https://arxiv.org/abs/1006.3717" target="_blank" rel="noopener">reference</a>) to study plasma evolution (<a href="https://yashpatel5400.github.io/files/cos.mp4" target="_blank" rel="noopener">video</a>).
               </p>
             </div>
           </div>
