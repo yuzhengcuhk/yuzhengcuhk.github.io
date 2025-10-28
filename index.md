@@ -414,6 +414,9 @@ Atomic Maps Reconstruction for Cryo-EM Data with Continuous Heterogeneity<br>
 
 Outside of my formal research projects, I still enjoy spinning up miscellaneous coding projects. Here are some highlights.
 
+<b><u>Intertect: Learn Computer Architecture</u></b> <br>
+[<a href="https://yashpatel5400.github.io/intertect/">Website</a>] [<a href="https://github.com/yashpatel5400/intertect">GitHub</a>] <br>
+
 <b><u>Multiple Importance Sampling in Light Transport</u></b> <br>
 <i>University of Michigan Project, 2021</i><br> 
 [<a href="http://yashpatel5400.github.io/files/light_transport_mis.pdf">Project Report</a>] [<a href="https://github.com/yashpatel5400/raytrace-montecarlo">GitHub</a>] <br>
@@ -421,10 +424,6 @@ Outside of my formal research projects, I still enjoy spinning up miscellaneous 
 <b><u>Chainlink Price Aggregation for Agoric</u></b> <br>
 <i>Gitcoin Bounty Project, 2021</i><br> 
 [<a href="https://github.com/yashpatel5400/agoric-sdk/commit/99fe4a4da207372cd70a6ec291dc36002974484f">GitHub</a>] <br>
-
-<b><u>Intertect: Learn Computer Architecture</u></b> <br>
-<i>Side Project, 2019</i><br> 
-[<a href="https://github.com/yashpatel5400/intertect">GitHub</a>] <br>
 
 * * *
 
