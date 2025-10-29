@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', function() {
   <span class="nav-current">Home</span> | <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="{{ '/blog/' | relative_url }}">Blog</a>
 </p>
 
-Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmonic</a> with significant prior experience in <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b>. I am most excited about using ML for accelerating scientific discovery. 
+Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmonic</a> with significant coding experience in <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b> and research experience in <b>uncertainty quantification, robust/convex optimization, rare-event detection, control theory, and PDE surrogate modeling</b>. I am most excited about using ML for accelerating scientific discovery. 
 
 <div class="timeline-section">
   <div class="timeline">
