@@ -326,49 +326,39 @@
   color: #394553;
 }
 
-.blog-list {
-  list-style: none;
-  margin: 2rem 0 3rem;
-  padding: 0;
-}
-
-.blog-list li {
-  margin-bottom: 1.8rem;
-  padding-bottom: 1.4rem;
-  border-bottom: 1px solid rgba(55, 65, 81, 0.15);
-}
-
-.blog-list li:last-child {
-  border-bottom: none;
-  margin-bottom: 0;
-  padding-bottom: 0;
-}
-
-.blog-post-date {
-  display: block;
-  font-size: 0.85rem;
+.blog-year {
+  margin: 2.5rem 0 0.6rem;
+  font-size: 1.05rem;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #6b7280;
-  margin-bottom: 0.35rem;
+  letter-spacing: 0.12em;
+  color: #1f2933;
 }
 
-.blog-list a {
-  font-size: 1.2rem;
-  font-weight: 600;
+.blog-archive {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.blog-archive li {
+  margin: 0.3rem 0;
+  font-size: 1rem;
+}
+
+.blog-archive a {
   color: #1f2933;
   text-decoration: none;
 }
 
-.blog-list a:hover {
+.blog-archive a:hover {
   color: #274bcc;
 }
 
-.blog-post-excerpt {
-  margin: 0.55rem 0 0;
-  color: #4b5563;
-  font-size: 0.98rem;
-  line-height: 1.55;
+.blog-archive-date {
+  display: inline-block;
+  width: 72px;
+  color: #6b7280;
+  font-size: 0.95rem;
 }
 
 .blog-empty {
@@ -383,6 +373,48 @@
 .nav-current {
   font-weight: 700;
   color: #274bcc;
+}
+
+.post-article {
+  max-width: 640px;
+  margin: 0 auto 4rem;
+}
+
+.post-breadcrumb {
+  margin: 1rem 0 0.5rem;
+}
+
+.post-breadcrumb a {
+  color: #274bcc;
+  text-decoration: none;
+}
+
+.post-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.post-title {
+  margin: 0;
+  font-size: 2rem;
+  color: #1f2933;
+}
+
+.post-date {
+  margin: 0.3rem 0 2rem;
+  color: #6b7280;
+  font-size: 0.95rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.post-content {
+  font-size: inherit;
+  line-height: 1.5;
+  color: inherit;
+}
+
+.post-content p {
+  margin-bottom: 1rem;
 }
 
 .lifting-stats {

@@ -48,5 +48,63 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const emailParagraph = document.querySelector('header p');
+      if (emailParagraph) {
+        emailParagraph.style.display = 'none';
+      }
+
+      if (!document.querySelector('.sidebar-social-links')) {
+        const socialLinksHTML = `
+          <div class="sidebar-social-links">
+            <ul>
+              <li>
+                <a href="mailto:yppatel@umich.edu">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Email</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/yashpatel5400">
+                  <i class="fa-brands fa-github"></i>
+                  <span>GitHub</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/yash-patel-297b87a1/">
+                  <i class="fa-brands fa-linkedin"></i>
+                  <span>LinkedIn</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/YashPat90148435">
+                  <i class="fa-brands fa-twitter"></i>
+                  <span>X (Twitter)</span>
+                </a>
+              </li>
+              <li>
+                <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">
+                  <i class="fa-solid fa-graduation-cap"></i>
+                  <span>Google Scholar</span>
+                </a>
+              </li>
+              <li>
+                <a href="/files/CV.pdf">
+                  <i class="fa-solid fa-file-lines"></i>
+                  <span>CV</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        `;
+
+        const profileImage = document.querySelector('header img');
+        if (profileImage) {
+          profileImage.insertAdjacentHTML('afterend', socialLinksHTML);
+        }
+      }
+    });
+    </script>
   </body>
 </html>

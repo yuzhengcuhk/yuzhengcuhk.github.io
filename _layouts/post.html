@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<article class="post-article">
+  <p class="post-breadcrumb"><a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a></p>
+  <h2 class="post-title">{{ page.title }}</h2>
+  {% if page.date %}
+  <p class="post-date">{{ page.date | date: "%B %d, %Y" }}</p>
+  {% endif %}
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>
