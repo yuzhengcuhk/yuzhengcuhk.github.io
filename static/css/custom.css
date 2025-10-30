@@ -249,6 +249,33 @@
   margin-bottom: 0.35rem;
 }
 
+.paper-entry {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.6rem;
+}
+
+.paper-logo {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
+.paper-logo img {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 8px;
+  box-shadow: 0 10px 18px rgba(58, 108, 246, 0.18);
+  object-fit: contain;
+}
+
+.paper-body {
+  flex: 1;
+}
+
 .timeline-subitems {
   position: relative;
   margin-top: 0.85rem;
@@ -613,4 +640,7 @@ footer {
   footer {
     width: auto;
   }
+}
+.paper-logo img + img {
+  margin-left: 0.35rem;
 }

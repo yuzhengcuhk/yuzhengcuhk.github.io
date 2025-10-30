@@ -246,57 +246,147 @@ My work has largely focused on developing methods with end-to-end statistical gu
 <h3 align="left" id="uq_methods">
   Uncertainty Quantification Methodology
 </h3>
-<b><u>Conformal Prediction for Ensembles: Improving Efficiency via Score-Based Aggregation</u></b><br/>
-<i>Neural Information Processing Systems (NeurIPS), 2025</i><br/>
-Rivera, E.O.\*, <b>Patel, Y.*</b> (\* equal contribution), Tewari, A.<br/>
-[<a href="https://arxiv.org/abs/2405.16246">Paper</a>] [<a href="https://github.com/yashpatel5400/fusioncp">GitHub</a>] <br/>
-<b><u>Variational Inference with Coverage Guarantees in Simulation-Based Inference</u></b><br/>
-<i>International Conference on Machine Learning (ICML), 2024</i><br/>
-<b>Patel, Y.</b>, McNamara, D., Loper, J., Regier, J., Tewari, A.<br/>
-[<a href="https://proceedings.mlr.press/v235/patel24a.html">Paper</a>] [<a href="https://github.com/yashpatel5400/canvi">GitHub</a>] <br/>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/neurips.png' | relative_url }}" alt="NeurIPS logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Conformal Prediction for Ensembles: Improving Efficiency via Score-Based Aggregation</u></b><br/>
+    <i>Neural Information Processing Systems (NeurIPS), 2025</i><br/>
+    Rivera, E.O.* , <b>Patel, Y.*</b> (* equal contribution), Tewari, A.<br/>
+    [<a href="https://arxiv.org/abs/2405.16246">Paper</a>] [<a href="https://github.com/yashpatel5400/fusioncp">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/icml.png' | relative_url }}" alt="ICML logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Variational Inference with Coverage Guarantees in Simulation-Based Inference</u></b><br/>
+    <i>International Conference on Machine Learning (ICML), 2024</i><br/>
+    <b>Patel, Y.</b>, McNamara, D., Loper, J., Regier, J., Tewari, A.<br/>
+    [<a href="https://proceedings.mlr.press/v235/patel24a.html">Paper</a>] [<a href="https://github.com/yashpatel5400/canvi">GitHub</a>]
+  </div>
+</div>
+
 <h3 align="left" id="robust_decision_making">
   Robust Decision-Making
 </h3>
-<b><u>Conformal Contextual Robust Optimization</u></b><br/>
-<i>International Conference on Artificial Intelligence and Statistics (AISTATS), 2024 (<b>Oral</b>)</i><br/>
-<b>Patel, Y.</b>, Rayan, S., Tewari, A.<br/>
-[<a href="https://proceedings.mlr.press/v238/patel24a.html">Paper</a>] [<a href="https://github.com/yashpatel5400/csi">GitHub</a>] <br/>
-<b><u>Conformal Robust Control of Linear Systems</u></b><br/>
-<i>In Submission</i><br/>
-<b>Patel, Y.</b>, Rayan, S., Tewari, A.<br/>
-[<a href="https://arxiv.org/abs/2405.16250">Paper</a>] [<a href="https://github.com/yashpatel5400/crc">GitHub</a>] <br/>
-<b><u>Non-Parameteric Conformal Distributionally Robust Optimization</u></b><br/>
-<i>ICML Workshop on Structured Probabilistic Inference &amp; Generative Modeling, 2024</i><br/>
-<b>Patel, Y.</b>, Cao, G., Tewari, A.<br/>
-[<a href="https://openreview.net/pdf?id=WavglEUVTR">Workshop Paper</a>] <br/>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/aistats.png' | relative_url }}" alt="AISTATS logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Conformal Contextual Robust Optimization</u></b><br/>
+    <i>International Conference on Artificial Intelligence and Statistics (AISTATS), 2024 (<b>Oral</b>)</i><br/>
+    <b>Patel, Y.</b>, Rayan, S., Tewari, A.<br/>
+    [<a href="https://proceedings.mlr.press/v238/patel24a.html">Paper</a>] [<a href="https://github.com/yashpatel5400/csi">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/arxiv.png' | relative_url }}" alt="arXiv logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Conformal Robust Control of Linear Systems</u></b><br/>
+    <i>In Submission</i><br/>
+    <b>Patel, Y.</b>, Rayan, S., Tewari, A.<br/>
+    [<a href="https://arxiv.org/abs/2405.16250">Paper</a>] [<a href="https://github.com/yashpatel5400/crc">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/icml.png' | relative_url }}" alt="ICML logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Non-Parametric Conformal Distributionally Robust Optimization</u></b><br/>
+    <i>ICML Workshop on Structured Probabilistic Inference &amp; Generative Modeling, 2024</i><br/>
+    <b>Patel, Y.</b>, Cao, G., Tewari, A.<br/>
+    [<a href="https://openreview.net/pdf?id=WavglEUVTR">Workshop Paper</a>]
+  </div>
+</div>
+
 <h3 align="left" id="ai_for_science">
   AI for Science
 </h3>
-<b><u>Continuum Transformers Perform In-Context Learning by Operator Gradient Descent</u></b><br/>
-<i>Neural Information Processing Systems (NeurIPS), 2025</i><br/>
-<i>ICLR AI for Accelerated Materials Design Workshop, 2025</i><br/>
-<b>Patel, Y.*</b>, Mishra, A.\* (\* equal contribution), Tewari, A.<br/>
-[<a href="https://arxiv.org/pdf/2505.17838">Paper</a>] [<a href="https://github.com/yashpatel5400/opicl">GitHub</a>] <br/>
-<b><u>Operator Learning for Schrödinger Equation: Unitarity, Error Bounds, and Time Generalization</u></b><br/>
-<i>In Submission</i><br/>
-<b>Patel, Y.*</b>, Subedi, U.\* (\* equal contribution), Tewari, A.<br/>
-[<a href="https://arxiv.org/abs/2505.18288">Paper</a>] [<a href="https://github.com/yashpatel5400/schrodinger_op">GitHub</a>] <br/>
-<b><u>A Greedy PDE Router for Blending Neural Operators and Classical Methods</u></b><br/>
-<i>In Submission</i><br/>
-Rayan, S., <b>Patel, Y.</b>, Tewari, A.<br/>
-[<a href="https://arxiv.org/abs/2509.24814">Paper</a>] [<a href="https://github.com/srayan00/greedy-hybrid-pde">GitHub</a>] <br/>
-<b><u>Diffusion Models for Probabilistic Deconvolution of Galaxy Images</u></b><br/>
-<i>ICML Machine Learning for Astrophysics Workshop, 2023</i><br/>
-Li, Y., Xue, Z., <b>Patel, Y.</b>, Regier, J.<br/>
-[<a href="https://ml4astro.github.io/icml2023/assets/37.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/galgen">GitHub</a>] <br/>
-<b><u>RL Boltzmann Generators for Conformer Generation in Data-Sparse Environments</u></b><br/>
-<i>NeurIPS Machine Learning in Structural Biology (MLSB) Workshop, 2022</i><br/>
-<b>Patel, Y.</b>, Tewari, A.<br/>
-[<a href="https://www.mlsb.io/papers_2022/RL_Boltzmann_Generators_for_Conformer_Generation_in_Data_Sparse_Environments.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/clean_idp_rl">GitHub</a>] <br/>
-<b><u>Scalable Bayesian Inference for Finding Strong Gravitational Lenses</u></b><br/>
-<i>NeurIPS Machine Learning and the Physical Sciences Workshop, 2022</i><br/>
-<b>Patel, Y.</b>, Regier, J.<br/>
-[<a href="https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_155.pdf">Workshop Paper</a>] [<a href="https://github.com/prob-ml/bliss">GitHub</a>] <br/>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/arxiv.png' | relative_url }}" alt="NeurIPS logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Continuum Transformers Perform In-Context Learning by Operator Gradient Descent</u></b><br/>
+    <i>In Submission</i><br/>
+    <i>ICLR AI for Accelerated Materials Design Workshop, 2025</i><br/>
+    <b>Patel, Y.*</b>, Mishra, A.* (* equal contribution), Tewari, A.<br/>
+    [<a href="https://arxiv.org/pdf/2505.17838">Paper</a>] [<a href="https://github.com/yashpatel5400/opicl">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/arxiv.png' | relative_url }}" alt="arXiv logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Operator Learning for Schrödinger Equation: Unitarity, Error Bounds, and Time Generalization</u></b><br/>
+    <i>In Submission</i><br/>
+    <b>Patel, Y.*</b>, Subedi, U.* (* equal contribution), Tewari, A.<br/>
+    [<a href="https://arxiv.org/abs/2505.18288">Paper</a>] [<a href="https://github.com/yashpatel5400/schrodinger_op">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/arxiv.png' | relative_url }}" alt="arXiv logo">
+  </div>
+  <div class="paper-body">
+    <b><u>A Greedy PDE Router for Blending Neural Operators and Classical Methods</u></b><br/>
+    <i>In Submission</i><br/>
+    Rayan, S., <b>Patel, Y.</b>, Tewari, A.<br/>
+    [<a href="https://arxiv.org/abs/2509.24814">Paper</a>] [<a href="https://github.com/srayan00/greedy-hybrid-pde">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/icml.png' | relative_url }}" alt="ICML logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Diffusion Models for Probabilistic Deconvolution of Galaxy Images</u></b><br/>
+    <i>ICML Machine Learning for Astrophysics Workshop, 2023</i><br/>
+    Li, Y., Xue, Z., <b>Patel, Y.</b>, Regier, J.<br/>
+    [<a href="https://ml4astro.github.io/icml2023/assets/37.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/galgen">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/neurips.png' | relative_url }}" alt="NeurIPS logo">
+  </div>
+  <div class="paper-body">
+    <b><u>RL Boltzmann Generators for Conformer Generation in Data-Sparse Environments</u></b><br/>
+    <i>NeurIPS Machine Learning in Structural Biology (MLSB) Workshop, 2022</i><br/>
+    <b>Patel, Y.</b>, Tewari, A.<br/>
+    [<a href="https://www.mlsb.io/papers_2022/RL_Boltzmann_Generators_for_Conformer_Generation_in_Data_Sparse_Environments.pdf">Workshop Paper</a>] [<a href="https://github.com/yashpatel5400/clean_idp_rl">GitHub</a>]
+  </div>
+</div>
+
+<div class="paper-entry">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/neurips.png' | relative_url }}" alt="NeurIPS logo">
+  </div>
+  <div class="paper-body">
+    <b><u>Scalable Bayesian Inference for Finding Strong Gravitational Lenses</u></b><br/>
+    <i>NeurIPS Machine Learning and the Physical Sciences Workshop, 2022</i><br/>
+    <b>Patel, Y.</b>, Regier, J.<br/>
+    [<a href="https://ml4physicalsciences.github.io/2022/files/NeurIPS_ML4PS_2022_155.pdf">Workshop Paper</a>] [<a href="https://github.com/prob-ml/bliss">GitHub</a>]
+  </div>
+</div>
 <h3 align="left" id="ai_for_science">
   Patents
 </h3>
