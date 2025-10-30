@@ -17,18 +17,14 @@ permalink: /blog/
 {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
 {% assign posts_by_year = sorted_posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 {% if posts_by_year and posts_by_year != empty %}
-  {% for year in posts_by_year %}
-  <h3 class="blog-year">{{ year.name }}</h3>
   <ul class="blog-archive">
-    {% assign sorted_posts = year.items | sort: 'date' | reverse %}
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     {% for post in sorted_posts %}
     <li>
-      <span class="blog-archive-date">{{ post.date | date: "%b %d" }}</span>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endfor %}
   </ul>
-  {% endfor %}
 {% else %}
   <div class="blog-empty">
     <p>No posts yet — check back soon!</p>
