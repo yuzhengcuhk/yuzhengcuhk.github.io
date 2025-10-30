@@ -4,7 +4,7 @@ title: Yash Patel
 ---
 
 <p align="center">
-<span class="nav-current">Home</span> | <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="{{ '/shader-playground/' | relative_url }}">Shader Playground</a> | <a href="{{ '/blog/' | relative_url }}">Blog</a>
+<span class="nav-current">Home</span> | <a href="#papers">Selected Papers</a> | <a href="#mentoring">Mentoring</a> | <a href="#projects">Projects</a> | <a href="{{ '/blog/' | relative_url }}">Blog</a>
 </p>
 
 Hi! I'm an incoming research engineer at <a href="https://harmonic.fun/">Harmonic</a> with significant coding experience in <b>C++, Python/PyTorch, OpenGL/GLSL, OpenCL, and Unity</b> and research experience in <b>uncertainty quantification, robust/convex optimization, rare-event detection, control theory, and PDE surrogate modeling</b>. I am most excited about using ML for accelerating scientific discovery. 
@@ -427,14 +427,14 @@ Outside of my formal research projects, I still enjoy spinning up miscellaneous 
 
 <b><u>Intertect: Learn Computer Architecture</u></b> <br/>
 [<a href="https://yashpatel5400.github.io/intertect/">Website</a>] [<a href="https://github.com/yashpatel5400/intertect">GitHub</a>] <br/>
+<b><u>Interactive Shader Playground</u></b><br/>
+[<a href="{{ '/shader-playground/' | relative_url }}">Website</a>] <br/>
 <b><u>Multiple Importance Sampling in Light Transport</u></b> <br/>
 <i>University of Michigan Project, 2021</i><br/> 
 [<a href="http://yashpatel5400.github.io/files/light_transport_mis.pdf">Project Report</a>] [<a href="https://github.com/yashpatel5400/raytrace-montecarlo">GitHub</a>] <br/>
 <b><u>Chainlink Price Aggregation for Agoric</u></b> <br/>
 <i>Gitcoin Bounty Project, 2021</i><br/> 
 [<a href="https://github.com/yashpatel5400/agoric-sdk/commit/99fe4a4da207372cd70a6ec291dc36002974484f">GitHub</a>] <br/>
-<b><u>Interactive Shader Playground</u></b><br/>
-[<a href="{{ '/shader-playground/' | relative_url }}">Live Editor</a>] <br/>
 
 * * *
 

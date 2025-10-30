@@ -9,32 +9,109 @@ permalink: /shader-playground/
   <a href="{{ '/' | relative_url }}#papers">Selected Papers</a> |
   <a href="{{ '/' | relative_url }}#mentoring">Mentoring</a> |
   <a href="{{ '/' | relative_url }}#projects">Projects</a> |
-  <span class="nav-current">Shader Playground</span> |
   <a href="{{ '/blog/' | relative_url }}">Blog</a>
 </p>
 
 <div class="shader-playground">
   <div class="shader-stage">
 <canvas id="shader-canvas"></canvas>
-<div class="shader-toolbar">
-<button id="run-shader">Run Shader</button>
-<button id="reset-shader">Reset</button>
-<span id="shader-status">Ready</span>
-</div>
 <div class="shader-error" id="shader-error"></div>
 </div>
-<div class="shader-editor-container">
-<div id="shader-editor"></div>
+<div class="shader-editor-wrapper">
+  <div class="shader-editor-container">
+    <div class="shader-editor-toolbar">
+      <label for="shader-select">Load example:</label>
+      <select id="shader-select">
+        <option value="gradient">Animated Gradient</option>
+        <option value="sunset">Sunset Horizon</option>
+        <option value="waves">Plasma Waves</option>
+      </select>
+      <div class="shader-editor-actions">
+        <button id="run-shader">Run Shader</button>
+        <button id="reset-shader">Reset</button>
+      </div>
+    </div>
+    <div id="shader-editor"></div>
+  </div>
 </div>
 </div>
-<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css" integrity="sha512-vz+RDUtbkHmhFAbq/fYexvjq2vSjg8bf4X0wsW2Ki2+hYgq9UfFN4RjPjFXjVz7qyx5JXAINslVwUCMNndZzZA==" referrerpolicy="no-referrer" rel="stylesheet"/>
-<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/monokai.min.css" integrity="sha512-Bl5LDpVzXLLOwDyuhPE/DRx39Bliiyg5ijpX+ytQVJIvT4T+3YtXuvJrEGTQImXuQleYdra7nZBrn1VLrq+p9g==" referrerpolicy="no-referrer" rel="stylesheet"/>
-<script crossorigin="anonymous" integrity="sha512-4oY9dpcxODg86T02qRDYhXA8Y8Z8dkD3Ok+x+oVDoTeTsJc+xGgpT1FSToO8O/D6fGiV/1wC/5OFwb1yg/5mEA==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
-<script crossorigin="anonymous" integrity="sha512-0SOXWkYGOQiqtFeEASnt9AZ9X1WxTh7KM9p0NyA4iOzpWhEiYmQAwytjCsspN7GTSo7chIMlR8oP2iXlAOowxw==" referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/monokai.min.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/clike/clike.min.js"></script>
 <style>
 .shader-playground {
-  max-width: 1200px;
-  margin: 2rem auto 4rem;
+  margin: 2rem 0 4rem;
+}
+
+.shader-editor-wrapper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.25rem;
+}
+
+@media (max-width: 992px) {
+  .shader-editor-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.shader-editor-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  color: #94a3b8;
+  font-size: 0.9rem;
+}
+
+.shader-editor-actions {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: auto;
+}
+
+.shader-editor-actions button {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  border: none;
+  color: white;
+  padding: 0.32rem 0.85rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.shader-editor-actions button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
+}
+
+.shader-editor-actions button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.shader-editor-toolbar label {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #cbd5f5;
+}
+
+.shader-editor-toolbar select {
+  background: rgba(15, 23, 42, 0.85);
+  border: 1px solid rgba(59, 130, 246, 0.35);
+  color: #e2e8f0;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.9rem;
+}
+
+.shader-editor-toolbar select:focus {
+  outline: none;
+  border-color: rgba(59, 130, 246, 0.6);
 }
 
 .shader-stage {
@@ -43,60 +120,27 @@ permalink: /shader-playground/
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 20px 45px rgba(15, 23, 42, 0.35);
-  margin-bottom: 1.5rem;
+  margin: 0 0 0.4rem 0;
 }
 
 #shader-canvas {
   width: 100%;
-  height: 420px;
+  height: 360px;
   display: block;
   background: radial-gradient(circle at center, #1f2937 0%, #0f172a 60%, #020617 100%);
 }
 
-.shader-toolbar {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  padding: 0.75rem 1rem;
-  background: rgba(15, 23, 42, 0.9);
-  color: #e2e8f0;
-  font-size: 0.95rem;
-}
-
-.shader-toolbar button {
-  background: linear-gradient(135deg, #3b82f6, #2563eb);
-  border: none;
-  color: white;
-  padding: 0.4rem 0.9rem;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.shader-toolbar button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.35);
-}
-
-.shader-toolbar button:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
-#shader-status {
-  margin-left: auto;
-  font-style: italic;
-  opacity: 0.8;
-}
-
 .shader-error {
-  min-height: 24px;
-  padding: 0.5rem 1rem 0.9rem;
+  display: none;
+  padding: 0.6rem 1rem;
   color: #fca5a5;
   font-family: 'Source Code Pro', monospace;
   font-size: 0.85rem;
   white-space: pre-wrap;
+}
+
+.shader-error.is-visible {
+  display: block;
 }
 
 .shader-editor-container {
@@ -104,31 +148,29 @@ permalink: /shader-playground/
   border-radius: 12px;
   padding: 0.75rem;
   box-shadow: 0 16px 32px rgba(15, 23, 42, 0.25);
+  color: #e2e8f0;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .shader-editor-container .CodeMirror {
-  height: 420px;
+  height: 360px;
   font-family: 'Source Code Pro', monospace;
   font-size: 0.95rem;
   border-radius: 8px;
 }
 
-@media (max-width: 992px) {
-  .shader-editor-container .CodeMirror {
-    height: 360px;
-  }
-}
-
 @media (max-width: 768px) {
   #shader-canvas,
   .shader-editor-container .CodeMirror {
-    height: 320px;
+    height: 260px;
   }
 }
 </style>
 <script>
+document.addEventListener('DOMContentLoaded', function() {
 (function() {
-  const defaultFragment = `// Fragment shader (GLSL)
+    const exampleShaders = {
+    gradient: `// Animated gradient
 precision highp float;
 
 uniform vec2 iResolution;
@@ -138,10 +180,63 @@ void main() {
   vec2 uv = gl_FragCoord.xy / iResolution.xy;
   uv = uv * 2.0 - 1.0;
   uv.x *= iResolution.x / iResolution.y;
-
   vec3 color = 0.5 + 0.5 * cos(iTime + vec3(0.0, 2.0, 4.0) + uv.xyx * 3.0);
   gl_FragColor = vec4(color, 1.0);
-}`;
+}
+`,
+    sunset: `// Sunset horizon
+precision highp float;
+
+uniform vec2 iResolution;
+uniform float iTime;
+
+float smoothSun(vec2 uv, float t) {
+  vec2 sunPos = vec2(0.0, -0.1 + 0.3 * sin(t * 0.4));
+  float d = length(uv - sunPos);
+  return smoothstep(0.25, 0.12, d);
+}
+
+void main() {
+  vec2 uv = gl_FragCoord.xy / iResolution.xy;
+  uv = uv * 2.0 - 1.0;
+  uv.x *= iResolution.x / iResolution.y;
+
+  float horizon = smoothstep(-0.1, 0.1, uv.y);
+  vec3 sky = mix(vec3(0.05, 0.08, 0.18), vec3(0.95, 0.5, 0.2), smoothstep(-0.5, 0.6, uv.y));
+  vec3 ocean = mix(vec3(0.04, 0.12, 0.25), vec3(0.1, 0.2, 0.35), smoothstep(-1.0, 0.2, uv.y));
+  float sun = smoothSun(uv, iTime);
+  vec3 color = mix(ocean, sky, horizon);
+  color += vec3(1.0, 0.65, 0.35) * sun;
+  color += vec3(0.6, 0.3, 0.1) * sun * smoothstep(0.0, -0.4, uv.y);
+  gl_FragColor = vec4(color, 1.0);
+}
+`,
+    waves: `// Plasma waves
+precision highp float;
+
+uniform vec2 iResolution;
+uniform float iTime;
+
+float plasma(vec2 uv) {
+  float p = sin(uv.x * 8.0 + iTime * 2.0);
+  p += sin(uv.y * 6.5 - iTime * 1.5);
+  p += sin((uv.x + uv.y) * 4.0 + iTime * 1.2);
+  return p / 3.0;
+}
+
+void main() {
+  vec2 uv = gl_FragCoord.xy / iResolution.xy;
+  uv = uv * 2.0 - 1.0;
+  float p = plasma(uv);
+  vec3 color = vec3(0.4 + 0.3 * cos(6.2831 * p + 0.0),
+                   0.4 + 0.3 * cos(6.2831 * p + 2.0),
+                   0.4 + 0.3 * cos(6.2831 * p + 4.0));
+  gl_FragColor = vec4(color, 1.0);
+}
+`
+  };
+
+  const defaultFragment = exampleShaders.gradient;
 
   const VertexShader = `attribute vec2 position;
 void main() {
@@ -150,11 +245,11 @@ void main() {
 
   const canvas = document.getElementById('shader-canvas');
   const gl = canvas.getContext('webgl');
-  const statusLabel = document.getElementById('shader-status');
   const errorBox = document.getElementById('shader-error');
 
   if (!gl) {
     errorBox.textContent = 'WebGL not supported in this browser.';
+    errorBox.classList.add('is-visible');
     return;
   }
 
@@ -201,7 +296,17 @@ void main() {
     tabSize: 2,
     autofocus: true
   });
-  editor.setSize('100%', 420);
+  editor.setSize('100%', 360);
+
+  const select = document.getElementById('shader-select');
+  select.addEventListener('change', () => {
+    const key = select.value;
+    if (exampleShaders[key]) {
+      editor.setValue(exampleShaders[key]);
+      buildAndRun();
+    }
+  });
+
 
   function compileShader(type, source) {
     const shader = gl.createShader(type);
@@ -270,10 +375,10 @@ void main() {
       useProgram(prog);
       startTime = performance.now();
       errorBox.textContent = '';
-      statusLabel.textContent = 'Running';
+      errorBox.classList.remove('is-visible');
     } catch (err) {
       errorBox.textContent = err.message;
-      statusLabel.textContent = 'Error';
+      errorBox.classList.add('is-visible');
       return;
     }
   }
@@ -292,4 +397,5 @@ void main() {
   buildAndRun();
   render();
 })();
+});
 </script>

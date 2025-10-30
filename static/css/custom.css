@@ -604,32 +604,67 @@ header img:hover {
 
 /* Layout adjustments for narrower sidebar and wider content */
 .wrapper {
-  width: 920px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: 240px minmax(0, 1fr);
+  grid-template-areas:
+    "header section"
+    "footer section";
+  column-gap: 2rem;
+  align-items: flex-start;
+}
+
+header, section, footer {
+  position: static;
+  float: none;
+  display: block;
 }
 
 header {
-  width: 220px;
+  grid-area: header;
+  width: 100%;
 }
 
 section {
-  width: 660px;
+  grid-area: section;
+  width: 100%;
 }
 
 footer {
-  width: 220px;
+  grid-area: footer;
+  width: 100%;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 1200px) {
   .wrapper {
-    width: auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "section"
+      "footer";
+    row-gap: 2rem;
+    padding: 0 1.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "header"
+      "section"
+      "footer";
+    gap: 1.5rem;
+    padding: 0 1.2rem;
   }
 
-  header,
-  section,
-  footer {
+  header, section, footer {
     width: auto;
   }
 }
+
 .paper-logo img + img {
   margin-left: 0.35rem;
 }
@@ -640,6 +675,5 @@ footer {
 }
 
 .shader-playground {
-  max-width: 960px;
-  margin: 2rem auto 4rem;
+  margin: 2rem 0 4rem;
 }

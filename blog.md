@@ -9,7 +9,6 @@ permalink: /blog/
   <a href="{{ '/' | relative_url }}#papers">Selected Papers</a> |
   <a href="{{ '/' | relative_url }}#mentoring">Mentoring</a> |
   <a href="{{ '/' | relative_url }}#projects">Projects</a> |
-  <a href="{{ '/shader-playground/' | relative_url }}">Shader Playground</a> |
   <span class="nav-current">Blog</span>
 </p>
 
