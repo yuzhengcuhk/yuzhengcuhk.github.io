@@ -11,4 +11,23 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+  <section class="post-comments">
+    <h3>Comments</h3>
+    <div id="utterances-thread"></div>
+    <noscript>Please enable JavaScript to view the comments.</noscript>
+    <script>
+      (function() {
+        if (document.getElementById('utterances-frame')) return;
+        var script = document.createElement('script');
+        script.src = 'https://utteranc.es/client.js';
+        script.async = true;
+        script.setAttribute('repo', 'yashpatel5400/yashpatel5400.github.io');
+        script.setAttribute('issue-term', 'pathname');
+        script.setAttribute('label', 'blog-comment');
+        script.setAttribute('theme', 'github-light');
+        script.setAttribute('crossorigin', 'anonymous');
+        document.getElementById('utterances-thread').appendChild(script);
+      })();
+    </script>
+  </section>
 </article>

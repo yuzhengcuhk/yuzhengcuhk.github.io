@@ -449,6 +449,10 @@
   margin-bottom: 1rem;
 }
 
+.post-comments {
+  margin-top: 3rem;
+}
+
 .lifting-stats {
   display: flex;
   justify-content: center;
