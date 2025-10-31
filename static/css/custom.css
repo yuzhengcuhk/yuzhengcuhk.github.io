@@ -276,6 +276,18 @@
   flex: 1;
 }
 
+.paper-code-link {
+  margin-left: 0.45rem;
+  color: #f97316;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.paper-code-link:hover {
+  color: #c2410c;
+}
+
 .timeline-subitems {
   position: relative;
   margin-top: 0.85rem;
@@ -606,7 +618,7 @@ header img:hover {
 .wrapper {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 1rem 0 1.5rem;
   display: grid;
   grid-template-columns: 240px minmax(0, 1fr);
   grid-template-areas:
@@ -645,7 +657,7 @@ footer {
       "section"
       "footer";
     row-gap: 2rem;
-    padding: 0 1.5rem;
+    padding: 0 1rem 0 1.4rem;
   }
 }
 
@@ -657,7 +669,7 @@ footer {
       "section"
       "footer";
     gap: 1.5rem;
-    padding: 0 1.2rem;
+    padding: 0 0.9rem 0 1.2rem;
   }
 
   header, section, footer {
