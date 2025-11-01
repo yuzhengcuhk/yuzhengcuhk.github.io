@@ -1,4 +1,4 @@
-# Yash Patel - Academic Website
+# Yu Zheng - Academic Website (Forked from Yash Patel)
 
 This is my personal academic website built with [Hugo](https://gohugo.io/) and the [Hugo Blox Builder](https://hugoblox.com/) Academic theme.
 
