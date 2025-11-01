@@ -13,7 +13,7 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
  
 
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Oct 2025]</span> Invited to serve as Program Commitee of CCS 2026 and Publicity Chair of PRISM Workshop co-located with NDSS 2026!
-- <span style="color:#ff7a18;font-weight:600">[NEWS|Sep 2025]</span> Our paper "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning" accepted at NDSS 2026!
+- <span style="color:#ff7a18;font-weight:600">[NEWS|Sep 2025]</span> Our paper "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning" has been accepted at NDSS 2026!
 
 <div class="timeline-section">
 <div class="timeline">
