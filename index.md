@@ -116,7 +116,6 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 </div>
 <p class="timeline-role">Department of Communication Engineering · <a class="timeline-mentor" href="https://" rel="noopener" target="_blank">BEng</a><br/>
         Ranking: 1st of 96.</p>
-<a href="https://dl.acm.org/doi/pdf/10.1145/3524273.3528190" target="_blank" rel="noopener">Thesis</a>: Search over Encrypted Videos.
 <div class="timeline-subitems">
 <div class="timeline-subitem">
   <div class="timeline-subitem-logo">
