@@ -40,7 +40,7 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 <div class="timeline-content">
 <div class="timeline-heading">
 <span class="timeline-organization">Chinese University of Hong Kong (CUHK) </span>
-<span class="timeline-duration"><strong>Aug 2018 – Aug 2024</strong></span>
+<span class="timeline-duration"><strong>Aug 2018 – Jul 2024</strong></span>
 </div>
 <p class="timeline-role">Department of Information Engineering · <a class="timeline-mentor" href="https://" rel="noopener" target="_blank">PhD</a></p>
 <p class="timeline-description">
