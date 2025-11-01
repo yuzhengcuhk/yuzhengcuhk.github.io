@@ -59,37 +59,37 @@
           <div class="sidebar-social-links">
             <ul>
               <li>
-                <a href="mailto:yppatel@umich.edu">
+                <a href="mailto:yu.zheng@uci.edu">
                   <i class="fa-solid fa-envelope"></i>
                   <span>Email</span>
                 </a>
               </li>
               <li>
-                <a href="https://github.com/yashpatel5400">
+                <a href="https://github.com/yuzhengcuhk">
                   <i class="fa-brands fa-github"></i>
                   <span>GitHub</span>
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/yash-patel-297b87a1/">
+                <a href="https://www.linkedin.com/in/yu-zheng-janeyew/">
                   <i class="fa-brands fa-linkedin"></i>
                   <span>LinkedIn</span>
                 </a>
               </li>
               <li>
-                <a href="https://x.com/YashPat90148435">
+                <a href="https://x.com/YuZheng0404">
                   <i class="fa-brands fa-twitter"></i>
                   <span>X (Twitter)</span>
                 </a>
               </li>
               <li>
-                <a href="https://scholar.google.com/citations?user=_BQwMtgAAAAJ&hl=en">
+                <a href="https://scholar.google.com/citations?hl=en&user=fH3uUgYAAAAJ&view_op=list_works&sortby=pubdate">
                   <i class="fa-solid fa-graduation-cap"></i>
                   <span>Google Scholar</span>
                 </a>
               </li>
               <li>
-                <a href="/files/CV.pdf">
+                <a href="/files/yuzheng.pdf">
                   <i class="fa-solid fa-file-lines"></i>
                   <span>CV</span>
                 </a>
@@ -109,6 +109,47 @@
           link.setAttribute('rel', 'noopener');
         }
       });
+
+      // Smooth scroll for internal anchors with configurable duration
+      // Matches links like <a href="#section"> or <a href="/path/#section">
+      (function() {
+        var selector = 'a[href^="#"], a[href^="' + window.location.pathname + '#"]';
+        document.querySelectorAll(selector).forEach(function(anchor) {
+          anchor.addEventListener('click', function(e) {
+            // resolve the hash target
+            var href = anchor.getAttribute('href');
+            var hash = href.indexOf('#') === -1 ? '' : href.slice(href.indexOf('#'));
+            if (!hash || hash === '#') return;
+            var target = document.querySelector(hash);
+            if (!target) return;
+            e.preventDefault();
+
+            var start = window.pageYOffset;
+            var end = target.getBoundingClientRect().top + start;
+            var distance = end - start;
+            var duration = 1000; // milliseconds — increase this to slow the scroll
+
+            // easing function (easeInOutQuad)
+            function ease(t) { return t < 0.5 ? 2*t*t : -1 + (4 - 2*t) * t; }
+
+            var startTime = null;
+            function step(timestamp) {
+              if (!startTime) startTime = timestamp;
+              var time = timestamp - startTime;
+              var progress = Math.min(time / duration, 1);
+              var value = start + distance * ease(progress);
+              window.scrollTo(0, value);
+              if (time < duration) {
+                window.requestAnimationFrame(step);
+              } else {
+                // update URL hash without jumping
+                try { history.pushState(null, '', hash); } catch (err) { /* noop */ }
+              }
+            }
+            window.requestAnimationFrame(step);
+          });
+        });
+      })();
     });
     </script>
   </body>
