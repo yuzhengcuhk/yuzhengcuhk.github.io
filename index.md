@@ -112,7 +112,7 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 <div class="timeline-content">
 <div class="timeline-heading">
 <span class="timeline-organization">Northeastern University (NEU)</span>
-<span class="timeline-duration"><strong>Sep 2014 – May 2018</strong></span>
+<span class="timeline-duration"><strong>Oct 2014 – Jun 2018</strong></span>
 </div>
 <p class="timeline-role">Department of Communication Engineering · <a class="timeline-mentor" href="https://" rel="noopener" target="_blank">BEng</a><br/>
         Ranking: 1st of 96.</p>
