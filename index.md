@@ -177,8 +177,7 @@ My research  is situated at the intersection of artificial intelligence (AI) and
     <img src="{{ '/static/images/logos/25_grace.png' | relative_url }}" alt="Grace logo" style="width: 150px; height: 80px; object-fit: contain;">
   </div>
   <div class="paper-body">
-    <b><a href="https://arxiv.org/pdf/2502.09808" target="_blank" rel="noopener">Secure Graph Convolu-
-tional Network on Vertically Split Data from Sparse Matrix Decomposition.</a><a class="paper-code-link" href="https://github." target="_blank" rel="noopener">[Code]</a></b><br/>
+    <b><a href="https://arxiv.org/pdf/2502.09808" target="_blank" rel="noopener">Secure Graph Convolutional Network on Vertically Split Data from Sparse Matrix Decomposition.</a><a class="paper-code-link" href="https://github." target="_blank" rel="noopener">[Code]</a></b><br/>
     <i>Prelim version accepted
 in DLSP Workshop @IEEE S&P, 2025.</i><br/>
     <b>Yu Zheng</b>, Qizhi Zhang, Chenang Li, Lichun Li, Kai Zhou, and Shan Yin.<br/>
@@ -212,7 +211,7 @@ in DLSP Workshop @IEEE S&P, 2025.</i><br/>
     <img src="{{ '/static/images/logos/softmoid.png' | relative_url }}" alt="Softmoid logo" style="width: 150px; height: 80px; object-fit: contain;">
   </div>
   <div class="paper-body">
-    <b><a href="https://arxiv.org/pdf/2505.17838" target="_blank" rel="noopener">Secure Softmax/Sigmoid for Machine-Learning Computation.</a><a class="paper-code-link" href="https://github.com/alipay/Antchain-MPC/tree/sec_softmoid" target="_blank" rel="noopener">[Code]</a></b><br/>
+    <b><a href="https://dl.acm.org/doi/pdf/10.1145/3627106.3627175" target="_blank" rel="noopener">Secure Softmax/Sigmoid for Machine-Learning Computation.</a><a class="paper-code-link" href="https://github.com/alipay/Antchain-MPC/tree/sec_softmoid" target="_blank" rel="noopener">[Code]</a></b><br/>
     <i>ACSAC, 2023.</i><br/>
     <b>Yu Zheng</b>, Qizhi Zhang, Sherman S.M. Chow, Yuxiang Peng, Sijun Tan, Lichun Li, and Shan Yin.<br/>
   </div>
@@ -308,8 +307,8 @@ During my PhD, I have also had the opportunity to mentor the  fantastic undergra
 </h3>
 - (26’ ) ICLR. 
 - (25’ ) ACM TOPS, ICLR, ICML, NeurIPS, TMLR, TDSC.
-- (24’ ) AISTATS, AsiaCCS, ICLR, ICML, IEEE TDSC, Information 
-- (23’ ) Sciences, NeurIPS. Information Sciences, NCAA, NeurIPS, JMANS. 
+- (24’ ) AISTATS, AsiaCCS, ICLR, ICML, IEEE TDSC, Information Sciences, NeurIPS.
+- (23’ )  Information Sciences, NCAA, NeurIPS, JMANS. 
 
 
 * * *
