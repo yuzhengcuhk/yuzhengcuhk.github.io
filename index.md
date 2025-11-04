@@ -11,7 +11,7 @@ title: (Jennie) Yu Zheng
 
 Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering & Computer Science at University of California, Irvine (UCI) advised by Prof. Zhou Li. My research interests focus on <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. If you are interested into my research, I am glad to share or collaborate.
  
-
+- <span style="color:#ff7a18;font-weight:600">[NEWS|Nov 2025]</span> I am excited to attend "NSF SaTC Aspiring PI Workshop"! See you at D.C.
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Oct 2025]</span> Invited to serve as Program Commitee of CCS 2026 and Publicity Chair of PRISM Workshop co-located with NDSS 2026!
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Sep 2025]</span> Our paper "Entente: Cross-silo Intrusion Detection on Network Log Graphs with Federated Learning" has been accepted at NDSS 2026!
 
