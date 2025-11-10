@@ -155,7 +155,7 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 </h2>
 
 * * *
-My research  is situated at the intersection of artificial intelligence (AI) and privacy-enhancing technologies (PETs), with the overarching goal of enabling efficient and privacy-preserving real-world applications. I advance PETs, including multiparty computation (MPC), differential privacy (DP), and federated learning (FL). Building on my contributions to the theory and design of PETs, I advance PPAI real-world deployments by developing *theoretically sound* and *practically deployable* PETs solutions. My work has been classified as <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. My long-term vision is to pioneer foundational PPAI methodologies and build scalable PPAI systems with real-world impact.
+My research  is situated at the intersection of artificial intelligence (AI) and privacy-enhancing technologies (PETs), with the overarching goal of enabling efficient and privacy-preserving real-world applications. I advance PETs, including multiparty computation (MPC), differential privacy (DP), and federated learning (FL). Building on my contributions to the theory and design of PETs, I advance PPAI real-world deployments by developing *theoretically sound* and *practically deployable* PETs solutions. My work has been classified as <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. My long-term vision is to pioneer foundational PPAI methodologies and build scalable PPAI systems with real-world impact. [Full List](https://scholar.google.com/citations?hl=en&user=fH3uUgYAAAAJ&view_op=list_works&sortby=pubdate)
 
 <h3 align="left" id="ppai">
   Privacy-Preserving AI
@@ -218,7 +218,7 @@ in DLSP Workshop @IEEE S&P, 2025.</i><br/>
 </div>
 
 <h3 align="left" id="llm_sp">
-  LLM Privacy & Security [current focus]
+  LLM Privacy & Security 
 </h3>
 
 
@@ -269,7 +269,7 @@ Dynamic Searchable Encryption with Constant State.</a><a class="paper-code-link"
 
 During my PhD, I have also had the opportunity to mentor the  fantastic undergraduate and master's students on their theses and research projects.
 
-<b>[Chenang Li](https:)</b> (<b><u>Oct 2024 - Present:</u></b> PhD Student @UCI --> <br/>
+<b>[Chenang Li](https:)</b> (<b><u>Oct 2024 - Present:</u></b> PhD Student @UCI  <br/>
 <!--
 <i>[Honors Thesis](https://www.ambujtewari.com/theses/Kevin_Cao_Undergraduate_Thesis_2024.pdf), 2023-24</i><br/>
 <i>Undergraduate Research Program in Statistics, 2023</i><br/> 
