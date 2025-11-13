@@ -4,7 +4,7 @@ title: (Jennie) Yu Zheng
 ---
 
 <p align="center">
-<span class="nav-current">Biography</span> | <a href="#papers">Selected Publication</a> | <a href="#mentoring">Teaching & Mentoring</a> | <a href="#projects">Service</a> | <a href="#misc">Misc</a>
+<span class="nav-current">Biography</span> | <a href="#papers">Selected Publications</a> | <a href="#mentoring">Teaching & Mentoring</a> | <a href="#projects">Service</a> | <a href="#misc">Misc</a>
 </p>
 
 <span style="color:#ff0000">I am on job market in 2025-2026 round!!! Thanks for reaching out to me!!!</span>
@@ -151,7 +151,7 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 </div>
 </div>
 <h2 align="center" id="papers">
-  Selected Publication
+  Selected Publications
 </h2>
 
 * * *
