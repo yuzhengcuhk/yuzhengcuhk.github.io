@@ -318,3 +318,4 @@ During my PhD, I have also had the opportunity to mentor the  fantastic undergra
 </h2>
   Outside of research, I enjoy reading, fitness, dance, and cooking.
   
+  Traveled: 🇭🇰·🇨🇳·🇺🇸·🇨🇦·🇯🇵·🇸🇬·🇰🇷·🇦🇺·🇻🇳·🇹🇭·🇦🇪·🇹🇷·🇨🇭·🇫🇷
