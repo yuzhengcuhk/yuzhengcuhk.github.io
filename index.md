@@ -316,8 +316,6 @@ During my PhD, I have also had the opportunity to mentor the  fantastic undergra
 <h2 align="center" id="misc">
   Miscellaneous
 </h2>
-  Outside of research, I enjoy reading, fitness, dance, and cooking.
-
-  I was the starting point guard on my school’s basketball team from 2009 to 2011. 
-  
-  Traveled: 🇭🇰·🇨🇳·🇺🇸·🇨🇦·🇯🇵·🇸🇬·🇰🇷·🇦🇺·🇻🇳·🇹🇭·🇦🇪·🇹🇷·🇨🇭·🇫🇷
+  - Outside of research, I enjoy reading, fitness, dance, and cooking.
+  - I was the starting point guard on my school’s basketball team from 2009 to 2011. 
+  - Traveled: 🇭🇰·🇨🇳·🇺🇸·🇨🇦·🇯🇵·🇸🇬·🇰🇷·🇦🇺·🇻🇳·🇹🇭·🇦🇪·🇹🇷·🇨🇭·🇫🇷
