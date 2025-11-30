@@ -1,6 +1,6 @@
 ---
 layout: default
-title: (Jennie) Yu Zheng
+title: Yu (Jennie) Zheng
 ---
 
 <p align="center">
