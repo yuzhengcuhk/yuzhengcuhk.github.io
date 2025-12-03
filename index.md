@@ -168,7 +168,7 @@ My research  is situated at the intersection of artificial intelligence (AI) and
   <div class="paper-body">
     <b><a href="https://arxiv.org/pdf/2506.22727" target="_blank" rel="noopener">Convergent Privacy Framework for Multi-layer GNNs through Contractive Message Passing.</a><a class="paper-code-link" href="https://github.com/yuzhengcuhk/caribou-public" target="_blank" rel="noopener">[Code]</a></b><br/>
     <i>NDSS, 2026.</i><br/>
-    <b>Yu Zheng</b> , Chenang Li, Zhou Li, and Qingsong Wang.<br/>
+    <b>Yu Zheng</b>, Chenang Li, Zhou Li, and Qingsong Wang.<br/>
   </div>
 </div>
 
