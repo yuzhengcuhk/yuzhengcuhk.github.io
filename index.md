@@ -7,7 +7,6 @@ title: Yu (Jennie) Zheng
 <span class="nav-current">Biography</span> | <a href="#papers">Selected Publications</a> | <a href="#mentoring">Teaching & Mentoring</a> | <a href="#projects">Service</a> | <a href="#misc">Misc</a>
 </p>
 
-<span style="color:#ff0000">I am on job market in 2025-2026 round!!! Thanks for reaching out to me!!!</span>
 
 Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering & Computer Science at University of California, Irvine (UCI) advised by Prof. Zhou Li. My research interests focus on <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. If you are interested into my research, I am glad to share or collaborate.
  
