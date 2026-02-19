@@ -8,7 +8,7 @@ title: Yu (Jennie) Zheng
 </p>
 
 
-Hi! I am a Associate Specialist at University of California, Berkeley. My research interests focus on <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. If you are interested into my research, I am glad to share or collaborate.
+Hi! I am an Associate Specialist at University of California, Berkeley. My research interests focus on <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. If you are interested into my research, I am glad to share or collaborate.
  
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Feb 2026]</span> Happy to join UC Berkeley.
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Jan 2026]</span> I am excited to give an invited colloquium talk at UC Riverside!
