@@ -16,6 +16,22 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
 
 <div class="timeline-section">
 <div class="timeline">
+
+<div class="timeline-item">
+  <div class="timeline-logo">
+    <a href="https://www.berkeley.edu/" target="_blank" rel="noopener">
+      <img src="{{ '/static/images/timeline/ucb.svg' | relative_url }}" alt="UCB logo" loading="lazy">
+    </a>
+  </div>
+<div class="timeline-content">
+<div class="timeline-heading">
+<span class="timeline-organization">University of California, Berkeley </span>
+<span class="timeline-duration"><strong>Feb 2026 – Present</strong></span>
+</div>
+<p class="timeline-role">Associate Specialist</p>
+</div>
+</div>
+
 <div class="timeline-item">
   <div class="timeline-logo">
     <a href="https://uci.edu/" target="_blank" rel="noopener">
@@ -24,8 +40,8 @@ Hi! I am a Postdoctoral Researcher in the Department of Electrical Engineering &
   </div>
 <div class="timeline-content">
 <div class="timeline-heading">
-<span class="timeline-organization">University of California, Irvine (UCI) </span>
-<span class="timeline-duration"><strong>Sep 2024 – Present</strong></span>
+<span class="timeline-organization">University of California, Irvine </span>
+<span class="timeline-duration"><strong>Sep 2024 – Feb 2026</strong></span>
 </div>
 <p class="timeline-role">Postdoctoral Scholar</p>
 </div>
