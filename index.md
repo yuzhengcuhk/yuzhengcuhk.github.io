@@ -10,6 +10,7 @@ title: Yu (Jennie) Zheng
 
 Hi! I am an Associate Specialist at University of California, Berkeley. My research interests focus on <a href="#ppai">privacy-preserving AI</a>, <a href="#llm_sp">LLM privacy & security</a>, and <a href="#sec_com">secure computation</a>. If you are interested into my research, I am glad to share or collaborate.
  
+- <span style="color:#ff7a18;font-weight:600">[NEWS|Nov 2026]</span> EAGLE has been accepted to KDD 2027; our work on key-isolated threshold signing for LLM agents will appear at the NeurIPS 2026 InfPriv Workshop.
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Feb 2026]</span> Happy to join UC Berkeley.
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Jan 2026]</span> I am excited to give an invited colloquium talk at UC Riverside!
 - <span style="color:#ff7a18;font-weight:600">[NEWS|Nov 2025]</span> I am excited to attend "NSF SaTC Aspiring PI Workshop"! See you at Washington, D.C. in December.
@@ -176,6 +177,17 @@ My research  is situated at the intersection of artificial intelligence (AI) and
   Privacy-Preserving AI
 </h3>
 
+<div class="paper-entry" id="eagle">
+  <div class="paper-logo">
+    <span style="display: inline-block; width: 150px; text-align: center; font-weight: 600;">EAGLE</span>
+  </div>
+  <div class="paper-body">
+    <b>EAGLE: Scalable Privacy-Preserving Graph-based Anomaly Detection with Practical Cross-silo Partitioning.</b><br/>
+    <i>ACM SIGKDD Conference (KDD), 2027 (accepted).</i><br/>
+    Chenang Li, <b>Yu Zheng</b>, Tianyi Liu, Yupeng Zhang, and Zhou Li.<br/>
+  </div>
+</div>
+
 <div class="paper-entry">
   <div class="paper-logo">
     <img src="{{ '/static/images/logos/26_caribou.png' | relative_url }}" alt="Caribou logo" style="width: 150px; height: 80px; object-fit: contain;">
@@ -235,6 +247,17 @@ in DLSP Workshop @IEEE S&P, 2025.</i><br/>
 <h3 align="left" id="llm_sp">
   LLM Privacy & Security 
 </h3>
+
+<div class="paper-entry" id="kita">
+  <div class="paper-logo">
+    <img src="{{ '/static/images/logos/neurips.png' | relative_url }}" alt="NeurIPS logo" style="width: 150px; height: 80px; object-fit: contain;">
+  </div>
+  <div class="paper-body">
+    <b><a href="https://arxiv.org/abs/2609.05901" target="_blank" rel="noopener">From Review to Authorization: Key-Isolated Threshold Signing for LLM Agents.</a></b><br/>
+    <i>Beyond Private Training: The New Landscape of AI Privacy (NeurIPS InfPriv Workshop), 2026.</i><br/>
+    <b>Yu Zheng</b>*, Qizhi Zhang* (* equal contribution).<br/>
+  </div>
+</div>
 
 
 <div class="paper-entry">
