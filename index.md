@@ -179,7 +179,7 @@ My research  is situated at the intersection of artificial intelligence (AI) and
 
 <div class="paper-entry" id="eagle">
   <div class="paper-logo">
-    <span style="display: inline-block; width: 150px; text-align: center; font-weight: 600;">EAGLE</span>
+    <img src="{{ '/static/images/logos/27_eagle.png' | relative_url }}" alt="EAGLE architecture" style="width: 150px; height: 80px; object-fit: contain;">
   </div>
   <div class="paper-body">
     <b>EAGLE: Scalable Privacy-Preserving Graph-based Anomaly Detection with Practical Cross-silo Partitioning.</b><br/>
@@ -250,7 +250,7 @@ in DLSP Workshop @IEEE S&P, 2025.</i><br/>
 
 <div class="paper-entry" id="kita">
   <div class="paper-logo">
-    <img src="{{ '/static/images/logos/neurips.png' | relative_url }}" alt="NeurIPS logo" style="width: 150px; height: 80px; object-fit: contain;">
+    <img src="{{ '/static/images/logos/26_kita.png' | relative_url }}" alt="Key-isolated threshold signing architecture for LLM agents" style="width: 150px; height: 80px; object-fit: contain;">
   </div>
   <div class="paper-body">
     <b><a href="https://arxiv.org/abs/2609.05901" target="_blank" rel="noopener">From Review to Authorization: Key-Isolated Threshold Signing for LLM Agents.</a></b><br/>
