@@ -255,7 +255,7 @@ in DLSP Workshop @IEEE S&P, 2025.</i><br/>
   <div class="paper-body">
     <b><a href="https://arxiv.org/abs/2609.05901" target="_blank" rel="noopener">From Review to Authorization: Key-Isolated Threshold Signing for LLM Agents.</a></b><br/>
     <i>Beyond Private Training: The New Landscape of AI Privacy (NeurIPS InfPriv Workshop), 2026.</i><br/>
-    <b>Yu Zheng</b>*, Qizhi Zhang* (* equal contribution).<br/>
+    <b>Yu Zheng</b>, Qizhi Zhang.<br/>
   </div>
 </div>
 
